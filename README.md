@@ -10,4 +10,6 @@ that will still join together
 even though we hit enter
 because of how github is designed
 
-however, if we leave a space line, we will have a new paragraph.
+however, if we leave a space line, we will have a new paragraph. 
+
+(remember to leave space after # in order for it to work :) )

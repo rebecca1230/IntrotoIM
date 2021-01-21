@@ -18,3 +18,4 @@ however, if we leave a space line, we will have a new paragraph.
 1. triangle (150, 150, 20, 20, 70, 30) : triangle is the function and the numbers are the arguments to it. 
 2. order matters. 
 3. use result of one function as an information to the other function.
+4. For Processing: space, enter a line of space, joint info, all don't affect the programming. 

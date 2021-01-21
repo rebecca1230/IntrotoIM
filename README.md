@@ -24,3 +24,4 @@ however, if we leave a space line, we will have a new paragraph.
 7. println: go ahead to print this, but create a seperate line.
 8. ellipse is oriented from the center and the sqaure is oritended from the left-up corner.
 9. Take note that for rectangle, y- is going up cuz its y-shows going vertical downward increases y-value. 
+10. README.md displays all the folders if click on it. 

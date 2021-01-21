@@ -1,7 +1,7 @@
 # IntrotoIM
-##This is smaller 
-###much smaller 
-####and so on
+## This is smaller 
+### much smaller 
+#### and so on
 *this should be in italic*
 **this should be bold**
 this is a sentence 

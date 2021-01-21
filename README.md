@@ -19,3 +19,5 @@ however, if we leave a space line, we will have a new paragraph.
 2. order matters. 
 3. use result of one function as an information to the other function.
 4. For Processing: space, enter a line of space, joint info, all don't affect the programming. 
+5. random(255) means "give me a number between 0 and 255". Random only allows float and not int. 
+

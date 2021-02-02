@@ -1,6 +1,6 @@
 # Frist Assignment
 
-![](/jan26/rp.png)
+![](/jan26/screenshot2.png)
 
 ## Difficulties: 
 1. I was spending a lot of time working on creating hair one by one using the curve function, which after the assignment, I understand the importance of first planning the simplest way to do the most work rather than dive into working right away. 

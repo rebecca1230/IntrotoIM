@@ -3,6 +3,8 @@
 For the second assignment, I have decided to create a telescope with a moving background, but more, this was an expriment on what I can do with Processing. 
 First, I coded for an upward moving horizontal line, like the following: 
 
+![](https://gph.is/g/4VDPGLD)
+
 ![](/Feb2/horizontal_line_up.png)
 
 Then, having this program written, I adjust the key parts and create the right-ward moving vertical line with the following code. 

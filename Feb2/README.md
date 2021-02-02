@@ -29,6 +29,7 @@ Though at the end did not apply those functions into the programming, I discover
 I've been experimenting on the two functions and realized that the differences are subtle. I tried to use a for loop that changes the background of the art with mousePressed and mouseReleased. However, I notice that mousePressed can be included under a void [specifically referring to: if (mousePressed == true);] whereas mouseReleased can not. 
 ### Reflection: The moment I know how to do it
 In this assignment, I focused on creating an art for which a vertical line moving rightward and a horizontal line moving upward can happen at the same time. It look me a long time figuring out how to design that. After multiple times of experimenting without seeing an appealing result, I tried replace the sign && "and" to | "or" after checking the Reference on Processing page, and it finally worked! 
+
 This is an important moment in my journey of learning coding/Processing. 
 I realized that the process of learning programming is really unique. 
 It requires extreme attentiveness and constantly thinking about "what if", what if I do this instead of that, what if there is a more effective way of doing things, what if I can mix those together......etc. 

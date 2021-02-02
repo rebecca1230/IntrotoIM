@@ -1,6 +1,6 @@
 ## Second Assignment: Create an art with loops 
 ### Difficulties
-1. When I could only have one void draw function inside the program, I will have to think of a way to merge two action under on chain of programming. This makes things more difficult.
+1. Because I can only have one "void draw(){" function in one programming, I will have to think of a way to merge two commands of action under the same "void draw(){" function. This makes things more difficult.
 2. I notice that in programming, there are multiple ways to do the same thing. Deciding which way to execute the function depends on the situations. I found this decision process challenging. 
 ### Discovery: mousePressed and mouseReleased
 Though at the end did not apply those functions into the programming, I discovered something worth investigate more.

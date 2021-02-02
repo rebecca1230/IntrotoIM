@@ -3,7 +3,7 @@
 For the second assignment, I have decided to create a telescope with a moving background, but more, this was an expriment on what I can do with Processing. 
 First, I coded for an upward moving horizontal line, like the following: 
 
-![](/Feb2/artrecording.gif)
+![](/Feb2/artrecording0.gif)
 
 ![](/Feb2/horizontal_line_up.png)
 

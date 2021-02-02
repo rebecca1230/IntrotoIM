@@ -4,12 +4,15 @@ For the second assignment, I have decided to create a telescope with a moving ba
 First, I coded for an upward moving horizontal line, like the following: 
 
 ![](/Feb2/horizontal_line_up.png)
+
 Then, having this program written, I adjust the key parts and create the right-ward moving vertical line with the following code. 
 
 ![](/Feb2/vertical_line_right.png)
+
 Having the above separately, I scrutinize the codes deeply to think of a way to let them work at the same time. At first, I was playing around with && to see how that works. Then, I generated the following code with help of the concept | "or". 
 
 ![](/Feb2/vertical_horizontal_together.png)
+
 Changed the lines to rectangles, and here is the final work: 
 
 ![](/Feb2/firsttelescope.png)

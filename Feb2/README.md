@@ -31,7 +31,9 @@ I've been experimenting on the two functions and realized that the differences a
 In this assignment, I focused on creating an art for which a vertical line moving rightward and a horizontal line moving upward can happen at the same time. It look me a long time figuring out how to design that. After multiple times of experimenting without seeing an appealing result, I tried replace the sign && "and" to | "or" after checking the Reference on Processing page, and it finally worked! 
 
 This is an important moment in my journey of learning coding/Processing. 
+
 I realized that the process of learning programming is really unique. 
 It requires extreme attentiveness and constantly thinking about "what if", what if I do this instead of that, what if there is a more effective way of doing things, what if I can mix those together......etc. 
 I realized that it will be really difficult to do programming without patience and the will to experiment. Understanding the terminology and the basic structure is just the step of knowing the tools and how to use them. The real part, the essence, of programming is to "create". The ability to create things with programming will only be acquire from "doing", not saying, not thinking, not understanding, but "doing". Progress are most effectively made by just trying it out. This can be a daunting and frustrating process, but the moment of feeling "Oh! This works!" is pretty rewarding. 
+
 P.S. Tiny mistakes makes a huge difference in programming.

@@ -1,9 +1,10 @@
 ## 2nd Assignment: Loop Art Work 
 ## Process explanation 
 For the second assignment, I have decided to create a telescope with a moving background, but more, this was an expriment on what I can do with Processing. 
-First, I coded for an upward moving horizontal line, like the following: 
 
 ![](/Feb2/artrecording0.gif)
+
+First, I coded for an upward moving horizontal line, like the following:
 
 ![](/Feb2/horizontal_line_up.png)
 

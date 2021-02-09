@@ -1,7 +1,9 @@
 ## 3rd Assignment_OOP: Earthquake
 
-The circles are the students' head. The choice of color(red and purple) reveals that the people are anixous.T
+The circles are the students' head. The choice of color(red and purple) reveals that the people are anixous.
+
 The left group is shaking and the others are panicing. 
+
 ![](earthquake.gif)
 
 ## Description

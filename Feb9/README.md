@@ -1,4 +1,4 @@
-**Assignment 3_OOP: Earthquake**
+## 3rd Assignment_OOP: Earthquake
 
 ![](earthquake.gif)
 

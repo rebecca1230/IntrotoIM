@@ -13,7 +13,7 @@ For this assignment, I created an artwork that conveys the sense of urgency duri
 ## Process
 
 In terms of the programming process, I applied what I have learned, which is first determine the class, then insert the functions the object under the class should execute, and finally, run the program. 
-In terms of the process of doing this assignment, it was a lot more daunting than I thought. I spent a long time understanding how object oriented programming really works before start coding. 
+In terms of the process of doing this assignment, it was a lot more daunting than I thought. I spent a lot of time understanding how object oriented programming really works before start coding. 
 
 
 ## Difficulty 

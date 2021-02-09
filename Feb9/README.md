@@ -22,6 +22,6 @@ In terms of the process of doing this assignment, it was a lot more daunting tha
 2. I was unable to create certain interesting functions due to limited ability. The process of exploring new tools is fun, but learning it and merging it into the code, especially to the object oriented program, is tricky. 
 
 ## Discovery 
-1. take note of the order of curly brackets help the coding. 
+1. Remember the order/layer of curly brackets help minimize coding mistakes. 
 2. We don't always need to active functions via the functions Processing defined [such as draw() ] If incorporating an invented function under a previous invented function, we may also active that function.
 

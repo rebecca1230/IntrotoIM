@@ -1,12 +1,12 @@
 ## 3rd Assignment_OOP: Earthquake
 
+The circles are the students' head. The choice of color(red and purple) reveals that the people are anixous.T
+The left group is shaking and the others are panicing. 
 ![](earthquake.gif)
 
 ## Description
 
-For this assignment, I created an artwork that conveys the sense of urgency during earthquake. I got the inspiration from recent 2 huge earthquakes happened in Taiwan. In addition, Dan's video and the short assignment we did at the end of the last class also helped me a lot in understanding the concept of object oriented programming. 
-
-Overall, the artwork is a macro view of people's reaction to the earthquake from the ceiling. On the left side of this artwork, we can see quite a few people shivering, and the others are running around trying to find their way out, but unfortunately, unable to. The confinement of Processing allows this piece to present a suffocating sense. 
+For this assignment, I created an artwork that conveys the sense of urgency during earthquake. I got the inspiration from recent 2 huge earthquakes happened in Taiwan. In addition, Dan's video and the short assignment we did at the end of the last class also helped me a lot in understanding the concept of object oriented programming. Overall, the artwork is a macro view of people's reaction to the earthquake from the ceiling. The confinement of Processing allows this piece to present a suffocating sense. 
 
 ## Process
 

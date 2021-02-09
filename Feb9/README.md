@@ -5,6 +5,8 @@ The circles are the students' head. The choice of color(red and purple) reveals 
 The left group is shaking and the others are panicing. 
 
 ![](theearthquake.gif)
+![](earthquake.gif)
+![](assignment3.gif)
 
 ## Description
 

@@ -40,4 +40,4 @@ However, rather than displaying list of words consecutively, I intended it to ra
 ![](overlapping.png)
 
 ## Discovery 
-1. This might not be a discovery, but I think knowing whicj function requires float and which requires int is imporant, because that mistake got me stuck for a multiple times.  
+This might not be a discovery, but I think knowing which function requires float and which requires int is imporant, because that mistake got me stuck for a multiple times.  

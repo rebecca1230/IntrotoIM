@@ -13,7 +13,7 @@ I initially imported .csv files of lists of adjective, verbs, and noun from the 
 
 ![](sheet.png)
 
-Then, I created arrays for .csv files and the text data. Also, I deteremined some basic properties such as x and y values. Next, I wrote the program that loads the .csv files of each type of words: adjective, noun, and verb to the sketch. Follow that was the display function, which is the backbone of the program, displaying the text. Finally, the mouseClicked program was used to ensure that the sketch generates a new sentence whenever I click the canvas. 
+Then, I created arrays for .csv files and the text data. Also, I deteremined some basic properties such as x and y values. Next, I wrote the program that loads the .csv files of each type of words: adjective, noun, and verb to the sketch. Follow that was the display function, which is the backbone of the program, displaying the text. Finally, the mouseClicked function was used to ensure that the sketch generates a new sentence whenever I click the canvas. 
 
 ## Difficulty
 ### First problem:

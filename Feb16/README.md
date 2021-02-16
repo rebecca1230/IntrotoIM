@@ -53,7 +53,4 @@ I was trying to solve the problem of having the sentences overlapping after clic
 3. println function shows text at the console, and text function deiplays text at the screen.
 4. .length is about the length of the array/list of data and not the actual length.
 5. https://cloudconvert.com/mov-to-gif Cloudconvert is a really user friendly website in converting .mov to .gif.
-
-## Curious...
-There is one statment written red in the console that I am curious about: 
-** ArrayIndexOutOfBoundsException: Index 17 out of bounds for length 17 **
+6. Curious about what the statment "ArrayIndexOutOfBoundsException: Index 17 out of bounds for length 17" that showed up at the console means.

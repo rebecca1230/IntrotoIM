@@ -21,6 +21,7 @@ I found it challenging to make the function of *randomly choosing index* and the
 
 The following are the codes under the display function(the tried version, not included in the final .pde). Notice how the following includes indexA for adjective, infexN for noun, and indexV for verb. The different naming for index successfully let the program randomly choose a word from the list to display.
 ```
+  //adjective
   color adjectiveColor = color (255, 100, 0);
   fill(adjectiveColor);
   int indexA = int(random(adjective.length)); 

@@ -50,5 +50,5 @@ I was trying to solve the problem of having the sentences overlapping after clic
 ## Discovery 
 1. This might not be a discovery, but I think knowing which function requires float and which requires int is imporant, because that mistake got me stuck for a multiple times.  
 2. In occasions I thought I should use noLoop(); and loop(); may sometimes turn out to be unessesary. 
-3. println function shows text at the console and text function deiplays text at the screen.
+3. println function shows text at the console, and text function deiplays text at the screen.
 4. .length is about the length of the array/list of data and not the actual length.

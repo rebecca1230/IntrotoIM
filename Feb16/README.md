@@ -5,9 +5,12 @@ For this assignment, I decided to create a coumputer-generating statement, consi
 I was inspired by the childhood game of mixing differet types of words to create sentences and glad able to do this again, interestingly, not on paper, but with computer. I created my data with Google sheet and downloaded them as .csv files. The noun here are people from this IM class, as I thought this project may have some entertaining effect. The background color is the NYUAD purple. Following is the final work:
 
 ![](sentence.gif)
+
 ## Process
 I initially imported .csv files of lists of adjective, verbs, and noun from the internet. Then, I concluded that those complicated words adding together might not be too interesting, so I created my own data via Google sheet, and downloaded the sheets as .csv file. The process was easier than I thought.
+
 ![](sheet.png)
+
 Then, I created arrays for .csv files and the text data. Also, I deteremined some basic properties such as x and y values. Next, I wrote the program that loads the .csv files of each type of words: adjective, noun, and verb to the sketch. Follow that was the display function, which is the backbone of the program, displaying the text. Finally, the mouseClicked program was used to ensure that the sketch generates a new sentence whenever I click the canvas. 
 
 ## Difficulty
@@ -37,6 +40,7 @@ index =index+1;
 However, rather than displaying list of words consecutively, I intended it to randomly pick the words, but I have not yet find a way to do that effectively.
 
 2. I was trying to solve the problem of having the sentences overlapping after clicking by finding ways to erase the already displayed sentences. This problem is realted to playing around the mouseClicked function as trying to find a solutoin for the above problem. Laster on, I managed to solve it by having the program adding new blank purple rectangle size same as the canvas during every new click.
+
 ![](overlapping.png)
 
 ## Discovery 

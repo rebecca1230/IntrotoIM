@@ -44,7 +44,7 @@ index =index+1;
 However, rather than displaying list of words consecutively, I intended it to randomly pick the words, but I have not yet find a way to do that effectively.
 
 ### Second problem:
-I was trying to solve the problem of having the sentences overlapping after clicking by finding ways to erase the already displayed sentences. This problem is realted to playing around the mouseClicked function as trying to find a solutoin for the above problem. Later on, I managed to solve it by having the program adding new blank purple rectangle size same as the canvas during every new click.
+I was trying to solve the problem of having the sentences overlapping after clicking by finding ways to erase the already displayed sentences. This problem is realted to playing around the mouseClicked function as trying to find a solutoin for the above problem. Later on, I managed to solve it by having the function adding new blank purple rectangle size same as the canvas during every new click.
 
 ![](overlapping.png)
 

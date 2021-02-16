@@ -6,8 +6,6 @@ I was inspired by the childhood game of mixing differet types of words to create
 
 Following is the final work:
 
-![](sentence.gif)
-
 ![](thefinalvideo.gif)
 
 ## Process

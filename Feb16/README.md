@@ -36,7 +36,7 @@ The following are the codes under the display function(the tried version, not in
   int indexV = int(random(verb.length));  
   text(verb[indexV],x,y+180);
 ```
-Following the display function, I have the mouseClicked function including the following comman for changing the sentence.  
+After writing the display function, I wrote the mouseClicked function including the following command for changing the sentence.  
 ```
 index =index+1;
 ```

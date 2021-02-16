@@ -16,7 +16,7 @@ I initially imported .csv files of lists of adjective, verbs, and noun from the 
 Then, I created arrays for .csv files and the text data. Also, I deteremined some basic properties such as x and y values. Next, I wrote the program that loads the .csv files of each type of words: adjective, noun, and verb to the sketch. Follow that was the display function, which is the backbone of the program, displaying the text. Finally, the mouseClicked program was used to ensure that the sketch generates a new sentence whenever I click the canvas. 
 
 ## Difficulty
-### First problem
+### First problem:
 I found it challenging to make the function of *randomly choosing index* and the function of *click to start a new page and new sentence* compatible with each other. If I want to let the former work, then different names that refers to the index of adjective, noun, and verb is required, but if wanting to let the latter "start new page" function work, it needs only one same name that refers to the index. 
 
 The following are the codes under the display function(the tried version, not included in the final .pde). Notice how the following includes indexA for adjective, infexN for noun, and indexV for verb. The different naming for index successfully let the program randomly choose a word from the list to display.
@@ -42,7 +42,7 @@ index =index+1;
 ```
 However, rather than displaying list of words consecutively, I intended it to randomly pick the words, but I have not yet find a way to do that effectively.
 
-### Second problem
+### Second problem:
 I was trying to solve the problem of having the sentences overlapping after clicking by finding ways to erase the already displayed sentences. This problem is realted to playing around the mouseClicked function as trying to find a solutoin for the above problem. Laster on, I managed to solve it by having the program adding new blank purple rectangle size same as the canvas during every new click.
 
 ![](overlapping.png)

@@ -8,6 +8,8 @@ Following is the final work:
 
 ![](sentence.gif)
 
+![](thefinalvideo.gif)
+
 ## Process
 I initially imported .csv files of lists of adjective, verbs, and noun from the internet. Then, I concluded that those complicated words adding together might not be too interesting, so I created my own data via Google sheet, and downloaded the sheets as .csv file. The process was easier than I thought.
 

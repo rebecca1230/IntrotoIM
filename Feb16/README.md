@@ -52,3 +52,4 @@ I was trying to solve the problem of having the sentences overlapping after clic
 2. In occasions I thought I should use noLoop(); and loop(); may sometimes turn out to be unessesary. 
 3. println function shows text at the console, and text function deiplays text at the screen.
 4. .length is about the length of the array/list of data and not the actual length.
+5. https://cloudconvert.com/mov-to-gif Cloudconvert is the best website for converting .mov to .gif

@@ -19,7 +19,7 @@ Then, I created arrays for .csv files and the text data. Also, I deteremined som
 ### First problem:
 I found it challenging to make the function of *randomly choosing index* and the function of *click to start a new page and new sentence* compatible with each other. If I want to let the former work, then different names for the index of adjective, noun, and verb is required, but if wanting to let the latter "start new page" function work, the mouseClicked function needs command having only one name for the index. 
 
-The following are the codes under the display function(the tried version, not included in the final .pde). Notice how the following includes indexA for adjective, infexN for noun, and indexV for verb. The different naming for index successfully let the program randomly choose a word from the list to display.
+The following are the codes under the display function(the tried version, not included in the final .pde file). Notice how the following includes indexA for adjective, infexN for noun, and indexV for verb, the different naming for index successfully let the program randomly choose a word from the list to display.
 ```
   //adjective
   color adjectiveColor = color (255, 100, 0);

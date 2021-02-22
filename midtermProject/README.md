@@ -1,4 +1,5 @@
 ## Midterm Journal 
+** PROGRESS ** 
 ### Feb 18(Thursday)
 1. Fixing Processing
 ### Feb 19(Friday)

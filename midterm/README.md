@@ -8,4 +8,8 @@
 2. Check out the codes of some games created by others on openprocessing.org
 3. Discovered the code for game Catch the Flag worth learning. 
 ### Feb 21(Sunday)
+1. Review functions that might be of use:
+   a) textAlign()
+   b) Basic functions such as arrray and for loop.
+   c) kepPressed()
 ### Feb 22(Monday)

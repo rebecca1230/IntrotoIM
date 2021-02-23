@@ -72,3 +72,14 @@ void game() {
   
 }
 ````
+To do list: 
+1. **Start_page**: Continue and complete the "start game" page with choice of tornaments. 
+2. **2_Strickers_and_1_puck**: load photos of 2 strikers and one puck. 
+3. **Move_the_strikers**: allow the 2 players to move strikers with the keys. 
+4. **Puck_reacts**: The puck will bouce to the opposite direction one it touches the strikers. 
+5. **Score**: Player gain one point when get the puck fully enter the opposite player's goal. [Use: for loop]
+6. **Sound_and_Congrats**: When the player receive one point, create a sounds of celebration and print "Good Job" on the screen.
+7. **After_score**: The puck should be placed in the center on the side of the player who just lost a point to serve. 
+8. **Line_of_separation**: Create function that make the players unable to enter each other's zone. 
+9. **Win_lose_Restart**: Create the "Game Over" and "You win" page.
+

@@ -1,21 +1,23 @@
 ## Midterm Journal 
 ### What is the midterm project about? 
-The midterm project is about creating a 2 players table hockey where the needed elements are (1) strikers/mallets the players will use to hit (2) the puck(the name of the disk being pass back and forth between the players.
+The midterm project is about creating a 2 players table hockey where the needed elements are: 
+(1) strikers/mallets the players will use to hit (2) the puck(the name of the disk being pass back and forth between the players.
 ### Feb 18(Thursday)
-1. Fixing Processing
+Spent a while researching on how to avoid Processing crash in the long term. 
 ### Feb 19(Friday)
-1. Review key functions of Processing by going through the .pde files of other classmates. 
+Rather than dive into coding, I first spent some time on reviewing Lecture notes and scrutinizing codes of the art and games done with Processing, because I thought I should get myself more familiar with the Processing functions. Once I have a stronger foundation on familiarizing the overall program structure, I may avoid stuck on daunting debugging. 
 ### Feb 20(Saturday)
-1. Review the map function to see how that may create the strikers.
-2. Check out the codes of some games created by others on openprocessing.org
+1. Review the map function to see how that may allow me to create strikers.
+2. Check out the codes of some games created by others on https://openprocessing.org/curation/25/
 3. Discovered the code for game Catch the Flag worth learning. 
+**Inspiration**
+Seeing how the *Catch the Flag* game did not have players use the mouse, I am inspired to have both players using keys to be fair for everyone. Player 1 will use the key "WSAD" as "up, down, left, right", whereas Player 2 will use the actual "up down left right" keys for playing.
 ### Feb 21(Sunday)
-1. Review functions that might be of use:
-   a) textAlign()
-   b) Basic functions such as arrray and for loop.
-   c) kepPressed()
+Go through the functions that might be of use, such as:
+   a) Basic functions such as arrray and for loop.
+   b) kepPressed();
 ### Feb 22(Monday)
-1. Created background for the table hockey game.
+Created background for the table hockey game.
 ![](background.png)
-3. Go over the functions, again. 
+
 

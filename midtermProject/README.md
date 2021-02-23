@@ -15,7 +15,7 @@ Rather than dive into coding, I first spent some time on reviewing Lecture notes
 **Inspiration**
 Seeing how the *Catch the Flag* game did not have players use the mouse, I am inspired to have both players using keys to be fair for everyone. Player 1 will use the key "WSAD" as "up, down, left, right", whereas Player 2 will use the actual "up down left right" keys for playing.
 ### Feb 21(Sunday)
-Go through the functions that might be of use, such as:
+Go through tools that might be of use, such as:
    a) Basic functions such as arrray and for loop.
    b) kepPressed();
 ### Feb 22(Monday)

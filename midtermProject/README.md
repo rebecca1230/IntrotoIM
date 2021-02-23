@@ -10,6 +10,7 @@ Rather than dive into coding, I first spent some time on reviewing Lecture notes
 1. Review the map function to see how that may allow me to create strikers.
 2. Check out the codes of some games created by others on https://openprocessing.org/curation/25/
 3. Discovered the code for game Catch the Flag worth learning. 
+
 **Inspiration**
 Seeing how the *Catch the Flag* game did not have players use the mouse, I am inspired to have both players using keys to be fair for everyone. Player 1 will use the key "WSAD" as "up, down, left, right", whereas Player 2 will use the actual "up down left right" keys for playing.
 ### Feb 21(Sunday)

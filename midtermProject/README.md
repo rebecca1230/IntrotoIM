@@ -20,6 +20,55 @@ Go through the functions that might be of use, such as:
    b) kepPressed();
 ### Feb 22(Monday)
 Created background for the table hockey game.
+````
+int fontsize = 80;
+
+void setup() {
+  size(800, 600);
+  background(135);
+  String [] fontList = PFont.list();
+  printArray(fontList);
+
+}
+
+void draw() {
+  //create left table
+  noStroke();
+  color leftTable = color(250, 30, 0);
+  fill(leftTable);
+  rect(0, 0, 400, 600);
+  //create right table
+  color rightTable = color(0, 30, 250);
+  fill(rightTable);
+  rect(400, 0, 400, 600);
+  //design the hockey table
+  fill(color(255));
+  rect(395, 0, 8, height);
+  fill(color(255));
+  circle(width/2, height/2, 40);
+}
+````
 ![](background.png)
 
+### Feb 23(Tuesday)
+Figuring out how to create the start and restart game function, and the following are the incomplete codes:
+````
+void startgame() {
+  boolean start= true;
+  if (start == true)
+  {
+    game();
+  }
+  if (start == false);
+  {
+    background(0, 130, 130);
+    PFont f = createFont("HanziPenSC-W3", 32);
+    textFont(f, fontsize);
+    text("Table Hockey", width/2,height/2);
+  }
+}
 
+void game() {
+  
+}
+````

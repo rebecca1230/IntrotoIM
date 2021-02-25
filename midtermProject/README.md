@@ -93,9 +93,7 @@ To do list for this week:
     3. Create a move function that let the puck bounces back and forth in between the upper and lower edges.
     4. With the keyPressed() function, two players are able to move the strikers up and down with the keys "w", "s", and up+down arrow keys.
     5. The puck will bounce off when the strikers hit the puck. This completes the minimal viable project, which is the basic function of player hitting the puck with their strikers.
-
-Discoveries: 
-1. For the speed of the puck (xspeed, yspeed), if xspeed is larger than the yspeed, then the puck will slid off the screen, instead of having the chance to bounce up and down in between the screen. To sum up, the proportion of the speed of (x,y) is important. 
+**Discoveries:** For the speed of the puck (xspeed, yspeed), if xspeed is larger than the yspeed, then the puck will slid off the screen, instead of having the chance to bounce up and down in between the screen. To sum up, the proportion of the speed of (x,y) is important. 
 
 ## 2/25(Thursday)
 1. Continue working on the function of start and restart the game. 
@@ -104,9 +102,7 @@ Discoveries:
 4. Add function that allows the game to end with a determined winner and loser. 
 5. Add sound function that makes sound when the puck hits the edges and got hit by the strikers. 
 6. Add sound function that makes sound when the player scores the goal and display the text "Good job!" on the screen.
-
-**Discoveries:**
-1. background(0); should be put under the draw() fuction, or else, rather than create a puck for bouncing back and forth, we will create multiple pucks overlapping each other.
+**Discoveries:** Background(0); should be put under the draw() fuction, or else, rather than create a puck for bouncing back and forth, we will create multiple pucks overlapping each other.
 
 **What works and what does not work?**
 

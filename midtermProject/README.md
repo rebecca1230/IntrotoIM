@@ -72,7 +72,7 @@ void game() {
   
 }
 ````
->>>>>> Move discoveries on what works and what does not are coming >>>>>>
+> Move discoveries on what works and what does not are coming >>>>>>
 
 To do list for this week: 
 1. **Start_Page**: Continue and complete the "start game" page with choice of tornaments. 

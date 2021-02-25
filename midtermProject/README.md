@@ -146,7 +146,7 @@ Unfortunately, nothing changed. Later on, I separated two paddles' range for x v
   ````
   And it works! 
 
-## 2/25(Thursday)
+## 2/26(Friday)
 **Gaol for the day:** At this point, we have two paddles that the players can control. However, we still need:
 1. Allow the paddles to move at the same time. 
 2. The puck bouce off as soon as a paddle touches it. 

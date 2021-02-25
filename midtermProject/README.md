@@ -1,23 +1,28 @@
 ## Midterm Journal 
+
 ### What is the midterm project about? 
 The midterm project is about creating a 2 players table hockey where the needed elements are: 
 (1) strikers/mallets the players will use to hit (2) the puck(the name of the disk being pass back and forth between the players.
 The players can choose four 3 types of tournaments, classified by the number of goals needed to win the game: (1) 7 goals; (2) 9 goals; (3) 11 goals.
+
 ### Feb 18(Thursday)
 Spent a while researching on how to avoid Processing crash in the long term. 
+
 ### Feb 19(Friday)
 Rather than dive into coding, I first spent some time on reviewing Lecture notes and scrutinizing codes of the art and games done with Processing, because I thought I should get myself more familiar with the Processing functions. Once I have a stronger foundation on familiarizing the overall program structure, I may avoid stuck on daunting debugging. 
-### Feb 20(Saturday)
-1. Review the map function to see how that may allow me to create strikers.
-2. Check out the codes of some games created by others on https://openprocessing.org/curation/25/
-3. Discovered the code for game *Catch the Flag* worth learning. 
 
+### Feb 20(Saturday)
+1. Reviewed the map function to see how that may allow me to create strikers.
+2. Checked out the codes of some games created by others on https://openprocessing.org/curation/25/
+3. Discovered the code for game *Catch the Flag* worth learning. 
 **Inspiration**
-Seeing how the *Catch the Flag* game did not have players use the mouse, I am inspired to have both players using keys to be fair for everyone. Player 1 will use the key "WSAD" as "up, down, left, right", whereas Player 2 will use the actual "up down left right" keys for playing.
+Seeing how the *Catch the Flag* game did not have players use the mouse, I am inspired to have both players using keys to be fair for everyone. Player 1 will use the key "WSAE" as "up, down, left, right", whereas Player 2 will use the actual "up down left right" keys for playing.
+
 ### Feb 21(Sunday)
-Go through tools that might be of use, such as:
+Went through tools that might be of use, such as:
    a) Basic functions such as arrray and for loop.
    b) kepPressed();
+
 ### Feb 22(Monday)
 Created background for the table hockey game.
 ````
@@ -72,9 +77,8 @@ void game() {
   
 }
 ````
-> Move discoveries on what works and what does not are coming >>>>>>
+*Outline to what the program needs*
 
-To do list for this week: 
 1. **Start_Page**: Continue and complete the "start game" page with choice of tornaments. 
 2. **2_Strickers_and_1_Puck**: load photos of 2 strikers and one puck. 
 3. **Move_the_Strikers**: allow the 2 players to move strikers with the keys. 
@@ -87,7 +91,7 @@ To do list for this week:
 
 ## 2/24(Wednesday)
 1. Created a class for Strikers and another class for the puck. 
-2. included some functions in the classes that can do the following:
+2. Included some functions in the classes that can do the following:
     1. Display the puck.
     2. Display the strikers.
     3. Create a move function that let the puck bounces back and forth in between the upper and lower edges.
@@ -99,7 +103,7 @@ For the speed of the puck (xspeed, yspeed), if xspeed is larger than the yspeed,
 
 ## 2/25(Thursday)
 1. Continue working on the function of start and restart the game. 
-2. Redesign the background. 
+2. Redesigned the background. 
 3. Add function that displays the score counts. 
 4. Add function that allows the game to end with a determined winner and loser. 
 5. Add sound function that makes sound when the puck hits the edges and got hit by the strikers. 

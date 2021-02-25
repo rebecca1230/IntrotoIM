@@ -85,3 +85,22 @@ To do list for this week:
 8. **Line_of_Separation**: Create function that make the players unable to enter each other's zone. 
 9. **Win_Lose_Restart**: Create the "Game Over" and "You win" page.
 
+## 2/24(Wednesday)
+1. Created a class for Strikers and another class for the puck. 
+2. included some functions in the classes that can do the following:
+    1. Display the puck.
+    2. Display the strikers.
+    3. Create a move function that let the puck bounces back and forth in between the upper and lower edges.
+    4. With the keyPressed() function, two players are able to move the strikers up and down with the keys "w", "s", and up+down arrow keys.
+    5. The puck will bounce off when the strikers hit the puck. This completes the minimal viable project, which is the basic function of player hitting the puck with their strikers.
+
+Discoveries: 
+1. For the speed of the puck (xspeed, yspeed), if xspeed is larger than the yspeed, then the puck will slid off the screen, instead of having the chance to bounce up and down in between the screen. To sum up, the proportion of the speed of (x,y) is important. 
+
+## 2/25(Thursday)
+1. Continue working on the function of start and restart the game. 
+2. Redesign the background. 
+3. Add function that displays the score counts. 
+4. Add function that allows the game to end with a determined winner and loser. 
+5. Add sound function that makes sound when the puck hits the edges and got hit by the strikers. 
+6. Add sound function that makes sound when the player scores the goal and display the text "Good job!" on the screen.

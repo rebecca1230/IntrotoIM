@@ -104,3 +104,6 @@ Discoveries:
 4. Add function that allows the game to end with a determined winner and loser. 
 5. Add sound function that makes sound when the puck hits the edges and got hit by the strikers. 
 6. Add sound function that makes sound when the player scores the goal and display the text "Good job!" on the screen.
+
+Discoveries:
+1. background(0); should be put under the draw() fuction, or else, rather than create a puck for bouncing back and forth, we will create multiple pucks overlapping each other.

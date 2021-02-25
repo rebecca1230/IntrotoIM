@@ -107,3 +107,25 @@ Discoveries:
 
 Discoveries:
 1. background(0); should be put under the draw() fuction, or else, rather than create a puck for bouncing back and forth, we will create multiple pucks overlapping each other.
+
+**What works and what does not work?**
+The part about the midterm project that I spent the most time working on is: creating the left and right strikers. Because left and right strikers encompass different functionality, when including them under the same class of "Strikers", I need to look out for the possible contradictions among the functions and design the program more sophistically.
+
+First, I used boolean to determine the left and right strikers. 
+````
+  Strikers(boolean left) { //use boolean 
+  //and the following if statement to determined the left or right striker.
+    if (left) {
+      x = j;
+    } else {
+      x = width - j;      
+    }
+  }
+````
+Soon, I encounter some difficulties. I need to create a function that limits the movement of the strikers for each only has half of the screen, but I was not sure about how to approach the dilemma. Then, I added the following function under the Strikers(boolean left){} function: 
+````
+    if (x>width/2) {
+      x= x-(width/2)-(j/2);
+    }
+````
+Unfortunately, nothing changed.

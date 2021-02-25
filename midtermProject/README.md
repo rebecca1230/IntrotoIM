@@ -95,7 +95,6 @@ To do list for this week:
     5. The puck will bounce off when the strikers hit the puck. This completes the minimal viable project, which is the basic function of player hitting the puck with their strikers.
 
 **Discoveries:** 
-
 For the speed of the puck (xspeed, yspeed), if xspeed is larger than the yspeed, then the puck will slid off the screen, instead of having the chance to bounce up and down in between the screen. To sum up, the proportion of the speed of (x,y) is important. 
 
 ## 2/25(Thursday)
@@ -107,11 +106,9 @@ For the speed of the puck (xspeed, yspeed), if xspeed is larger than the yspeed,
 6. Add sound function that makes sound when the player scores the goal and display the text "Good job!" on the screen.
 
 **Discoveries:** 
-
 Background(0); should be put under the draw() fuction, or else, rather than create a puck for bouncing back and forth, we will create multiple pucks overlapping each other.
 
 **What works and what does not work?**
-
 The part about the midterm project that I spent the most time working on is: creating the left and right strikers. Because left and right strikers encompass different functionality, when including them under the same class of "Strikers", I need to look out for the possible contradictions among the functions and design the program more sophistically.
 
 First, I used boolean to determine the left and right strikers:

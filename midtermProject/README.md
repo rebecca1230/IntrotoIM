@@ -105,10 +105,11 @@ Discoveries:
 5. Add sound function that makes sound when the puck hits the edges and got hit by the strikers. 
 6. Add sound function that makes sound when the player scores the goal and display the text "Good job!" on the screen.
 
-Discoveries:
+**Discoveries:**
 1. background(0); should be put under the draw() fuction, or else, rather than create a puck for bouncing back and forth, we will create multiple pucks overlapping each other.
 
 **What works and what does not work?**
+
 The part about the midterm project that I spent the most time working on is: creating the left and right strikers. Because left and right strikers encompass different functionality, when including them under the same class of "Strikers", I need to look out for the possible contradictions among the functions and design the program more sophistically.
 
 First, I used boolean to determine the left and right strikers:

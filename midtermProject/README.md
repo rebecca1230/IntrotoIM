@@ -111,7 +111,7 @@ Discoveries:
 **What works and what does not work?**
 The part about the midterm project that I spent the most time working on is: creating the left and right strikers. Because left and right strikers encompass different functionality, when including them under the same class of "Strikers", I need to look out for the possible contradictions among the functions and design the program more sophistically.
 
-First, I used boolean to determine the left and right strikers. 
+First, I used boolean to determine the left and right strikers:
 ````
   Strikers(boolean left) { //use boolean 
   //and the following if statement to determined the left or right striker.

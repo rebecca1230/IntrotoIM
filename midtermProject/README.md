@@ -128,4 +128,18 @@ Soon, I encounter some difficulties. I need to create a function that limits the
       x= x-(width/2)-(j/2);
     }
 ````
-Unfortunately, nothing changed.
+Unfortunately, nothing changed. Later on, I separated two paddles' range for x value with the following code: 
+````
+  void moveLeftX(float steps) {
+    x += steps;
+    x = constrain(x, j/2, width/2);
+  }  
+
+  void moveRightX(float steps) {
+    x += steps;
+    x = constrain(x, width/2, width-j/2);
+  }  
+  ````
+  And it works! 
+
+

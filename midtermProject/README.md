@@ -151,3 +151,25 @@ Unfortunately, nothing changed. Later on, I separated two paddles' range for x v
 1. Allow the paddles to move at the same time. 
 2. The puck bouce off as soon as a paddle touches it. 
 3. Score and count the scores.
+
+I thought the following code may address the second goal of the day:
+````
+  void checkPaddleLeft (Paddles p) {
+    if (x == p.x) {
+      xspeed *= -1;
+    }
+    if (y == p.y) {
+      yspeed *= -1;
+    }
+  }
+
+  void checkPaddleRight (Paddles p) {
+    if (x == p.x) {
+      xspeed *= -1;
+    }
+    if (y == p.y) {
+      yspeed *= -1;
+    }
+  }
+  ````
+  However, that was not effectie, and I checked the code of "Multiple object collision" from here: https://processing.org/examples/bouncybubbles.html

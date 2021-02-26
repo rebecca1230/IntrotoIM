@@ -243,3 +243,34 @@ to the following code:
     if (keyCode == UP) {
       right.moveY(-10);
 ````
+**Back to Goal 2**
+I tried to solve the puck and paddles collide issue by writing a function that checks whether the puck and the paddles overlap with use of the paddles' ellipse, then use boolean to execute that if overlap is true, then puck reverse its direction:
+````
+float function;
+void collide() {
+  float firstHalf =((pow(x,2))+(pow(25,2))-0.5);
+  float secondHalf =((pow(x,2))+(pow(25,2))-0.5);
+  function = firstHalf+secondHalf;
+  boolean function = true;
+  if (function) {
+    xspeed *= -1;
+    yspeed *= -1;
+  }
+}
+````
+However, I was stuck for 2 hours trying to get the function work. Later on, I gave up on this approach and tried another method, which works:
+````
+  void collide(float leftX, float leftY, float rightX, float rightY) {
+    boolean bounce = false;
+    if (dist(leftX, leftY, xU, yU) < 50) {
+      bounce = true;
+    }
+    if (dist(rightX, rightY, xU, yU) < 50) {
+      bounce = true;
+    }
+    if (bounce) {
+      xUspeed *= -1;
+      yUspeed *= -1;
+    }
+  }
+  ````

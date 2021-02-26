@@ -238,7 +238,7 @@ void collide() {
   }
 }
 ````
-However, I was stuck for 2 hours trying to get the function work. Later on, I gave up on this approach and tried another method, which works:
+However, I was stuck for 2 hours trying to get the function work. Later on, I gave up on this approach and tried another method(after learning the function "dist"), which works:
 ````
   void collide(float leftX, float leftY, float rightX, float rightY) {
     boolean bounce = false;

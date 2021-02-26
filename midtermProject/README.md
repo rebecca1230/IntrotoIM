@@ -273,3 +273,4 @@ However, I was stuck for 2 hours trying to get the function work. Later on, I ga
     }
   }
   ````
+***Reflection of the day*** Achieved Goal2 & Goal3 and realized that Goal1 is not that important, so I will se that aside first.

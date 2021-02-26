@@ -1,7 +1,7 @@
 # Midterm Journal 
 
 **What is the midterm project about?** The midterm project is about creating a 2 players table hockey where the needed elements are: 
-(1) strikers/mallets the players will use to hit (2) the puck(the name of the disk being pass back and forth between the players.
+(1) the paddles the players will use to hit (2) the puck(the name of the disk being pass back and forth between the players.
 The players can choose four 3 types of tournaments, classified by the number of goals needed to win the game: (1) 7 goals; (2) 9 goals; (3) 11 goals.
 
 ## 2/18(Thursday)
@@ -78,18 +78,18 @@ void game() {
 ````
 
 ## 2/24(Wednesday)
-1. Created a class for Strikers and another class for the puck. 
+1. Created a class for Paddles and another class for Puck. 
 2. Included some functions in the classes that can do the following:
     1. Display the puck.
-    2. Display the strikers.
+    2. Display the paddles.
     3. Create a move function that let the puck bounces back and forth in between the upper and lower edges.
-    4. With the keyPressed() function, two players are able to move the strikers up and down with the keys WSEA, and arrow keys UP,DOWN,RIGHT,LEFT.
+    4. With the keyPressed() function, two players are able to move the paddles up and down with the keys WSEA, and arrow keys UP,DOWN,RIGHT,LEFT.
 
 **Discoveries:** 
 For the speed of the puck (xspeed, yspeed), if xspeed is larger than the yspeed, then the puck will slid off the screen, instead of having the chance to bounce up and down in between the screen. To sum up, the proportion of the speed of (x,y) is important. 
 
 ## 2/25(Thursday)
-1. Continue working on figuring out the function of start and restart the game. 
+1. Continue working on figuring out how to create a function that allows start and restart the game. 
 2. Spent most of the time reviewing concepts that allow me to proceed in creating more sophisticated functions.
 3. Redesigned the background. 
 
@@ -97,12 +97,12 @@ For the speed of the puck (xspeed, yspeed), if xspeed is larger than the yspeed,
 Background(0); should be put under the draw() fuction, or else, rather than create a puck for bouncing back and forth, we will create multiple pucks overlapping each other.
 
 **What works and what does not work?**
-The part about the midterm project that I spent the most time working on is: creating the left and right strikers. Because left and right strikers encompass different functionality, when including them under the same class of "Strikers", I need to look out for the possible contradictions among the functions and design the program more sophistically.
+A part about the midterm project that costed me a lot of time was: creating the left and right strikers. Because left and right paddles encompass different functionality, when including them under the same class of "Paddles", I need to look out for the possible contradictions among the functions and design the program more carefully.
 
-First, I used boolean to determine the left and right strikers:
+First, I used boolean to determine the left and right paddles:
 ````
-  Strikers(boolean left) { //use boolean 
-  //and the following if statement to determined the left or right striker.
+  Paddles(boolean left) { //use boolean 
+  //and the following if statement to determined the left or right paddle.
     if (left) {
       x = j;
     } else {
@@ -110,7 +110,7 @@ First, I used boolean to determine the left and right strikers:
     }
   }
 ````
-Soon, I encounter some difficulties. I need to create a function that limits the movement of the strikers for each only has half of the screen, but I was not sure about how to approach the dilemma. Then, I added the following function under the Strikers(boolean left){} function: 
+Soon, I encounter some difficulties. I need to create a function that limits the movement of the paddles for each only has half of the screen, but I was not sure about how to approach the dilemma. Then, I added the following function under the Paddles(boolean left){} function: 
 ````
     if (x>width/2) {
       x= x-(width/2)-(j/2);

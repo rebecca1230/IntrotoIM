@@ -6,6 +6,7 @@ The players can choose four 3 types of tournaments, classified by the number of 
 
 ## 2/18(Thursday)
 Spent a while researching on how to avoid Processing crash in the long term. 
+![](error_message.png)
 
 ## 2/19(Friday)
 Rather than dive into coding, I first spent some time on reviewing Lecture notes and scrutinizing codes of the art and games done with Processing, because I thought I should get myself more familiar with the Processing functions. Once I have a stronger foundation on familiarizing the overall program structure, I may avoid stuck on daunting debugging. 
@@ -252,6 +253,9 @@ However, I was stuck for 2 hours trying to get the function work. Later on, I ga
     }
   }
   ````
+
+***The Completed Minimal Viable Project***
+![](test_2_midterm.gif)
 ***Reflection of the day*** Achieved Goal2 & Goal3 and realized that Goal1 is not that important, so I will se that aside first.
 
 ## 2/27(Saturday)

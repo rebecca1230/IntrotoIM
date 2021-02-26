@@ -76,20 +76,6 @@ void game() {
   
 }
 ````
-/*
-
-*Outline to what the program needs:*
-1. **Start_Page**: Continue and complete the "start game" page with choice of tornaments. 
-2. **2_Strickers_and_1_Puck**: load photos of 2 strikers and one puck. 
-3. **Move_the_Strikers**: allow the 2 players to move strikers with the keys. 
-4. **Puck_Reacts**: The puck will bouce to the opposite direction one it touches the strikers. 
-5. **Score**: Player gain one point when get the puck fully enter the opposite player's goal. [Use: for loop]
-6. **Sound_and_Congrats**: When the player receive one point, create a sounds of celebration and print "Good Job" on the screen.
-7. **After_Score**: The puck should be placed in the center on the side of the player who just lost a point to serve. 
-8. **Line_of_Separation**: Create function that make the players unable to enter each other's zone. 
-9. **Win_Lose_Restart**: Create the "Game Over" and "You win" page.
-
-*/
 
 ## 2/24(Wednesday)
 1. Created a class for Strikers and another class for the puck. 
@@ -103,16 +89,9 @@ void game() {
 For the speed of the puck (xspeed, yspeed), if xspeed is larger than the yspeed, then the puck will slid off the screen, instead of having the chance to bounce up and down in between the screen. To sum up, the proportion of the speed of (x,y) is important. 
 
 ## 2/25(Thursday)
-
-/*
-1. Continue working on the function of start and restart the game. 
-2. Redesigned the background. 
-3. Add function that displays the score counts. 
-4. Add function that allows the game to end with a determined winner and loser. 
-5. Add sound function that makes sound when the puck hits the edges and got hit by the strikers. 
-6. Add sound function that makes sound when the player scores the goal and display the text "Good job!" on the screen.
-
-*/
+1. Continue working on figuring out the function of start and restart the game. 
+2. Spent most of the time reviewing concepts that allow me to proceed in creating more sophisticated functions.
+3. Redesigned the background. 
 
 **Discoveries:** 
 Background(0); should be put under the draw() fuction, or else, rather than create a puck for bouncing back and forth, we will create multiple pucks overlapping each other.
@@ -274,3 +253,13 @@ However, I was stuck for 2 hours trying to get the function work. Later on, I ga
   }
   ````
 ***Reflection of the day*** Achieved Goal2 & Goal3 and realized that Goal1 is not that important, so I will se that aside first.
+
+## 2/27(Saturday)
+
+**Goal of the day:** 
+1. Refine background and enhacne aesthetic. 
+2. Create the start and restart function of the game.
+3. Add sound. 
+4. Winner and Looser. 
+5. Choose level of difficulties. 
+

@@ -77,6 +77,7 @@ void game() {
 }
 ````
 /*
+
 *Outline to what the program needs:*
 1. **Start_Page**: Continue and complete the "start game" page with choice of tornaments. 
 2. **2_Strickers_and_1_Puck**: load photos of 2 strikers and one puck. 

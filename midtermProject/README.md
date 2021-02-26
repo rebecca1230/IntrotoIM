@@ -217,3 +217,22 @@ Frustrated about unable to achieve Goal 2, I decided to first work on Goal 3: cr
   However, two problems occurred: 
   1. The left paddle does not work anymore. 
   2. I need to find a way to let the puck that resets to the middle after someone scored stop moving until a paddle touches it, during a new session.
+
+***For Problem 1***
+I solved it by changing the following code:
+````
+  } else if (key =='a') {
+    left.moveLeftX(-10);
+  } 
+  if (key == CODED) {
+    if (keyCode == UP) {
+      right.moveY(-10);
+ ````
+to the following code:
+````
+ } else if (key =='a') {
+    left.moveLeftX(-10);
+  } else if (key == CODED) {
+    if (keyCode == UP) {
+      right.moveY(-10);
+````

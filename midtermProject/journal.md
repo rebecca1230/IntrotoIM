@@ -255,7 +255,8 @@ However, I was stuck for 2 hours trying to get the function work. Later on, I ga
   }
   ````
 
-***The Completed Minimal Viable Project***
+***The Completed Minimal Viable Project:***
+
 ![](test_2.gif)
 
 ***Reflection of the day*** Achieved Goal2 & Goal3 and realized that Goal1 is not that important, so I will se that aside first.
@@ -263,10 +264,9 @@ However, I was stuck for 2 hours trying to get the function work. Later on, I ga
 ## 2/27(Saturday)
 
 **Goal of the day:** 
-1. Refine background and enhacne aesthetic. 
-2. Create the start and restart function of the game.
-3. Add sound. 
-4. Winner and Looser. 
-5. Choose level of difficulties. 
-
-
+1. Should resolve some bugs and change the speed or size of paddle/puck to make the game smoother.
+2. Refine background and enhacne aesthetic. 
+3. Create the start and restart function of the game.
+4. Add sound. 
+5. Winner and Looser. 
+6. Choose level of difficulties. 

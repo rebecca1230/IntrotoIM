@@ -243,7 +243,7 @@ to the following code:
     if (keyCode == UP) {
       right.moveY(-10);
 ````
-**Back to Goal 2**
+***Back to Goal 2***
 I tried to solve the puck and paddles collide issue by writing a function that checks whether the puck and the paddles overlap with use of the paddles' ellipse, then use boolean to execute that if overlap is true, then puck reverse its direction:
 ````
 float function;

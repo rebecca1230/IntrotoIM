@@ -274,3 +274,7 @@ However, I was stuck for 2 hours trying to get the function work. Later on, I ga
 5. Add sound. 
 6. Winner and Looser. 
 7. Choose level of difficulties. 
+
+
+***For Goal_1a***
+Check out the article on cricles collision: https://processing.org/examples/circlecollision.html

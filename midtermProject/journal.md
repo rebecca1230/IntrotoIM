@@ -5,17 +5,17 @@
 The players can choose four 3 types of tournaments, classified by the number of goals needed to win the game: (1) 7 goals; (2) 9 goals; (3) 11 goals.
 
 ## 2/18(Thursday)
-Spent a while researching on how to avoid Processing crash in the long term. The following is the error message of the crash:
+Spent a while researching how to avoid the Processing crash in the long term. The following is the error message of the crash:
 
 ![](error_message.png)
 
 ## 2/19(Friday)
-Rather than dive into coding, I first spent some time on reviewing Lecture notes and scrutinizing codes of the art and games done with Processing, because I thought I should get myself more familiar with the Processing functions. Once I have a stronger foundation on familiarizing the overall program structure, I may avoid stuck on daunting debugging. 
+Rather than dive into coding, I first spent some time reviewing Lecture notes and scrutinizing codes of the art and games done with Processing, because I thought I should get myself more familiar with the Processing functions. Once I have a stronger foundation on familiarizing the overall program structure, I may avoid stuck on daunting debugging. 
 
 ## 2/20(Saturday)
 1. Reviewed the map function to see how that may allow me to create strikers.
 2. Checked out the codes of some games created by others on https://openprocessing.org/curation/25/
-3. Discovered the code for game *Catch the Flag* worth learning. 
+3. Discovered the code for the game *Catch the Flag* worth learning. 
 **Inspiration**
 Seeing how the *Catch the Flag* game did not have players use the mouse, I am inspired to have both players using keys to be fair for everyone. Player 1 will use the key "WSAE" as "up, down, left, right", whereas Player 2 will use the actual "up down left right" keys for playing.
 
@@ -84,11 +84,11 @@ void game() {
 2. Included some functions in the classes that can do the following:
     1. Display the puck.
     2. Display the paddles.
-    3. Create a move function that let the puck bounces back and forth in between the upper and lower edges.
+    3. Create a move function that lets the puck bounces back and forth in between the upper and lower edges.
     4. With the keyPressed() function, two players are able to move the paddles up and down with the keys WSEA, and arrow keys UP,DOWN,RIGHT,LEFT.
 
 **Discoveries:** 
-For the speed of the puck (xspeed, yspeed), if xspeed is larger than the yspeed, then the puck will slid off the screen, instead of having the chance to bounce up and down in between the screen. To sum up, the proportion of the speed of (x,y) is important. 
+For the speed of the puck (xspeed, yspeed), if xspeed is larger than the yspeed, then the puck will be slid off the screen, instead of having the chance to bounce up and down in between the screen. To sum up, the proportion of the speed of (x,y) is important. 
 
 ## 2/25(Thursday)
 1. Continue working on figuring out how to create a function that allows start and restart the game. 
@@ -96,10 +96,10 @@ For the speed of the puck (xspeed, yspeed), if xspeed is larger than the yspeed,
 3. Redesigned the background. 
 
 **Discoveries:** 
-Background(0); should be put under the draw() fuction, or else, rather than create a puck for bouncing back and forth, we will create multiple pucks overlapping each other.
+Background(0); should be put under the draw() function, or else, rather than create a puck for bouncing back and forth, we will create multiple pucks overlapping each other.
 
 **What works and what does not work?**
-A part about the midterm project that costed me a lot of time was: creating the left and right strikers. Because left and right paddles encompass different functionality, when including them under the same class of "Paddles", I need to look out for the possible contradictions among the functions and design the program more carefully.
+A part of the midterm project that cost me a lot of time was: creating the left and right strikers. Because the left and right paddles encompass different functionality, when including them under the same class of "Paddles", I need to look out for the possible contradictions among the functions and design the program more carefully.
 
 First, I used boolean to determine the left and right paddles:
 ````
@@ -135,7 +135,7 @@ Unfortunately, nothing changed. Later on, I separated two paddles' range for x v
 ## 2/26(Friday)
 **Gaol for the day:** At this point, we have two paddles that the players can control. However, we still need:
 1. Allow the paddles to move at the same time. 
-2. The puck bouce off as soon as a paddle touches it. 
+2. The puck bounce off as soon as a paddle touches it. 
 3. Score and count the scores.
 
 ***For Goal 2*** I tried out the following codes:
@@ -161,7 +161,7 @@ Unfortunately, nothing changed. Later on, I separated two paddles' range for x v
 However, that was not effective, so I try to discover some solutions by checking the code of "Multiple object collision" from here: https://processing.org/examples/bouncybubbles.html. Unfortunately, that was not helpful. 
 
 ***For Goal 3***
-Frustrated about unable to achieve Goal 2, I decided to first work on Goal 3: create the score function. The tricky part is to let the score happen only when the puck is at a specific "y" range, and the folliwng code that I first tried did not work:
+Frustrated about unable to achieve Goal 2, I decided to first work on Goal 3: create the score function. The tricky part is to let the score happen only when the puck is at a specific "y" range, and the following code that I first tried did not work:
 ````
   void edges() {
     if (y<0 || y>height) {
@@ -266,15 +266,23 @@ However, I was stuck for 2 hours trying to get the function work. Later on, I ga
 **Goal of the day:** 
 1. Should resolve some bugs and change the speed or size of paddle/puck to make the game smoother.  
   a) Change the angle of the puck.  
-  b) Allow a harder hit of the paddle leads to accerleration of the puck.  
+  b) Allow a harder hit of the paddle leads to acceleration of the puck.  
   c) Allow two keys' press to work at the same time.  
   d) Let the puck exist in the middle of the screen during a new session(game after someone scored).  
-3. Refine background and enhacne aesthetic. 
+3. Refine background and enhance aesthetic. 
 4. Create the start and restart function of the game.
 5. Add sound. 
 6. Winner and Looser. 
-7. Choose level of difficulties. 
+7. Choose the level of difficulties. 
+
+***Things learned during the process***
+1. PVector
+2. .add
+3. random2D
+4. map
 
 
 ***For Goal_1a:***
-Check out the article on cricles collision: https://processing.org/examples/circlecollision.html
+Check out the article on circles collision: https://processing.org/examples/circlecollision.html
+
+

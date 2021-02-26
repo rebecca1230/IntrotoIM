@@ -5,7 +5,8 @@
 The players can choose four 3 types of tournaments, classified by the number of goals needed to win the game: (1) 7 goals; (2) 9 goals; (3) 11 goals.
 
 ## 2/18(Thursday)
-Spent a while researching on how to avoid Processing crash in the long term. 
+Spent a while researching on how to avoid Processing crash in the long term. The following is the error message of the crash:
+
 ![](error_message.png)
 
 ## 2/19(Friday)
@@ -255,8 +256,6 @@ However, I was stuck for 2 hours trying to get the function work. Later on, I ga
   ````
 
 ***The Completed Minimal Viable Project***
-![](test_2_midterm.gif)
-
 ![](test_2.gif)
 
 ***Reflection of the day*** Achieved Goal2 & Goal3 and realized that Goal1 is not that important, so I will se that aside first.

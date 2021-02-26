@@ -152,7 +152,7 @@ Unfortunately, nothing changed. Later on, I separated two paddles' range for x v
 2. The puck bouce off as soon as a paddle touches it. 
 3. Score and count the scores.
 
-I thought the following code may address the second goal of the day:
+***For Goal 2*** I tried out the following codes:
 ````
   void checkPaddleLeft (Paddles p) {
     if (x == p.x) {
@@ -172,4 +172,28 @@ I thought the following code may address the second goal of the day:
     }
   }
   ````
-  However, that was not effectie, and I checked the code of "Multiple object collision" from here: https://processing.org/examples/bouncybubbles.html
+However, that was not effective, so I try to discover some solutions by checking the code of "Multiple object collision" from here: https://processing.org/examples/bouncybubbles.html. Unfortunately, that was not helpful. 
+
+***For Goal 3***
+As I could not find a solution, I decided to first work on the score function. However, the code does not work:
+````
+  void edges() {
+    if (y<0 || y>height) {
+      yspeed *= -1;
+    }
+    if (x<0 || x>width) {
+      xspeed *= -1;
+    }
+  }
+  void checkScore() {
+    if (y < height-220 && y > height-180) {
+      reset();
+      score();
+    }
+  }
+  void score() {
+    leftscore++;
+    rightscore++;
+  }
+  ````
+  

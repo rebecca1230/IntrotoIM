@@ -1,7 +1,6 @@
 # Midterm Journal 
 
-### What is the midterm project about? 
-The midterm project is about creating a 2 players table hockey where the needed elements are: 
+**What is the midterm project about?** The midterm project is about creating a 2 players table hockey where the needed elements are: 
 (1) strikers/mallets the players will use to hit (2) the puck(the name of the disk being pass back and forth between the players.
 The players can choose four 3 types of tournaments, classified by the number of goals needed to win the game: (1) 7 goals; (2) 9 goals; (3) 11 goals.
 

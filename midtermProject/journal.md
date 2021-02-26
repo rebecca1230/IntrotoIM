@@ -266,13 +266,10 @@ However, I was stuck for 2 hours trying to get the function work. Later on, I ga
 **Goal of the day:** 
 1. Should resolve some bugs and change the speed or size of paddle/puck to make the game smoother.
   
-  a) Change the angle of the puck. 
-  
-  b) Allow a harder hit of the paddle leads to accerleration of the puck. 
-  
-  c) Allow two keys' press to work at the same time.  
-  
-  d) Let the puck exist in the middle of the screen during a new session(game after someone scored). 
+  a) Change the angle of the puck.\ 
+  b) Allow a harder hit of the paddle leads to accerleration of the puck.\
+  c) Allow two keys' press to work at the same time.\
+  d) Let the puck exist in the middle of the screen during a new session(game after someone scored).\
 
 3. Refine background and enhacne aesthetic. 
 4. Create the start and restart function of the game.

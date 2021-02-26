@@ -95,8 +95,7 @@ void game() {
     1. Display the puck.
     2. Display the strikers.
     3. Create a move function that let the puck bounces back and forth in between the upper and lower edges.
-    4. With the keyPressed() function, two players are able to move the strikers up and down with the keys "w", "s", and up+down arrow keys.
-    5. The puck will bounce off when the strikers hit the puck. This completes the minimal viable project, which is the basic function of player hitting the puck with their strikers.
+    4. With the keyPressed() function, two players are able to move the strikers up and down with the keys WSEA, and arrow keys UP,DOWN,RIGHT,LEFT.
 
 **Discoveries:** 
 For the speed of the puck (xspeed, yspeed), if xspeed is larger than the yspeed, then the puck will slid off the screen, instead of having the chance to bounce up and down in between the screen. To sum up, the proportion of the speed of (x,y) is important. 

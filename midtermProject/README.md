@@ -87,6 +87,7 @@ void game() {
 7. **After_Score**: The puck should be placed in the center on the side of the player who just lost a point to serve. 
 8. **Line_of_Separation**: Create function that make the players unable to enter each other's zone. 
 9. **Win_Lose_Restart**: Create the "Game Over" and "You win" page.
+
 */
 
 ## 2/24(Wednesday)
@@ -109,6 +110,7 @@ For the speed of the puck (xspeed, yspeed), if xspeed is larger than the yspeed,
 4. Add function that allows the game to end with a determined winner and loser. 
 5. Add sound function that makes sound when the puck hits the edges and got hit by the strikers. 
 6. Add sound function that makes sound when the player scores the goal and display the text "Good job!" on the screen.
+
 */
 
 **Discoveries:** 

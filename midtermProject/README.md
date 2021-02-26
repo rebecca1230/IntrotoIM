@@ -175,7 +175,7 @@ Unfortunately, nothing changed. Later on, I separated two paddles' range for x v
 However, that was not effective, so I try to discover some solutions by checking the code of "Multiple object collision" from here: https://processing.org/examples/bouncybubbles.html. Unfortunately, that was not helpful. 
 
 ***For Goal 3***
-As I could not find a solution, I decided to first work on the score function. However, the code does not work:
+Frustrated about unable to achieve Goal 2, I decided to first work on Goal 3: create the score function. The tricky part is to let the score happen only when the puck is at a specific "y" range, and the folliwng code that I first tried did not work:
 ````
   void edges() {
     if (y<0 || y>height) {
@@ -194,6 +194,25 @@ As I could not find a solution, I decided to first work on the score function. H
   void score() {
     leftscore++;
     rightscore++;
+  }
+  ````
+  After trying out different methods, the following code finally works! : 
+  ````
+    void edges() {
+    if (y < 0 || y > height) {
+      yspeed *= -1;
+    }
+    if (x < 0 || x > width) {
+      xspeed *= -1;
+    }
+    if (x < 0 && y > height-340 && y < height-260 == true) {
+      rightscore++;
+      reset();
+    }
+   if (x > width && y > height-340 && y < height-260 == true) {
+      leftscore++;
+      reset();
+    }
   }
   ````
   

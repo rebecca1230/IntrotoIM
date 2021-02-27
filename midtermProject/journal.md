@@ -280,8 +280,35 @@ However, I was stuck for 2 hours trying to get the function work. Later on, I ga
 2. Seek help from Discord.
 
 ***Goal4__Game Stages:***
-Originally, I have two classes: (1) class Paddles{} (2) class Puck{}, for which I call the functions under the classses via the void draw() function. To create the game stages: start, play, end(restart), I decided to replace the void draw function with the playGame() function and included functions signifying the three game stages: startGame(), playGame(), and endGame under the void draw() function. I opened a new sketch to make this change to avoid potential mistakes from the new change ruining the program. 
 
+****Step 1:**** Originally, I have two classes: (1) class Paddles{} (2) class Puck{}, for which I call the functions under the classses via the void draw() function. To create the game stages: start, play, end(restart), I decided to replace the void draw function with the playGame() function and included functions signifying the three game stages: startGame(), playGame(), and endGame under the void draw() function. I opened a new sketch to make this change to avoid potential mistakes from the new change ruining the program. However, having bother the startGame() and playGame() functions ready, I was wondering which screen will the program display first and I tried the progran. While the program displayed the playGame() function first, it weirdly combined the two functions: the textFont "Opensans" I added under the startGame() function for dispaly the phrase "Tabble Hockey" was used under playGame() as the font for the score count.  
+****Step 2:**** A crucial concept is that the startgame() function should appear as the first by defult. The game can be a loop where the endGame link back to the startGame(), but startGame() has to be the first thing the players encounter when they open the sketch. With this in mind, I created the following code: 
+````
+void draw() {
+  boolean start = true;
+  if (start) {
+    startGame();
+  }
+  else {
+   endGame();
+   }
+}
+````
+Plus the following code under the startGame() function:
+````
+  //display a rectangle that incldes the word Start
+  stroke(255);
+  strokeWeight(2);
+  noFill();
+  rectMode(CENTER);
+  rect(width/2, height/4, 100, 80);
+  if (mouseX > width/2-50 && mouseX < width/2+50
+    && mouseY > height/4-40 && mouseY < height/4+40
+    && mousePressed == false) {
+    playGame();
+  }
+````
+However, I encountered the problem of **The start game screen will only go away during the 0.2 second of mousePressed.** This was undesirable as I need the start screen to be constantly removed after the game started. 
 
 **Discoveries:** For a boolean, only varibales can be assigned to be true or false.
 ***Things learned during the process***

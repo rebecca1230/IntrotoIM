@@ -285,4 +285,4 @@ However, I was stuck for 2 hours trying to get the function work. Later on, I ga
 ***For Goal_1a:***
 Check out the article on circles collision: https://processing.org/examples/circlecollision.html
 
-
+**Discoveries:** For a boolean, only varibales can be assigned to be true or false.

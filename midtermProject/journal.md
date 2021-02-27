@@ -91,15 +91,15 @@ void game() {
 For the speed of the puck (xspeed, yspeed), if xspeed is larger than the yspeed, then the puck will be slid off the screen, instead of having the chance to bounce up and down in between the screen. To sum up, the proportion of the speed of (x,y) is important. 
 
 ## 2/25(Thursday)
-1. Continue working on figuring out how to create a function that allows start and restart the game. 
-2. Spent most of the time reviewing concepts that allow me to proceed in creating more sophisticated functions.
+1. Spent most of the time reviewing concepts that allow me to proceed in creating more sophisticated functions.
 3. Redesigned the background. 
+4. Created the functiom that let the left and right paddles unable to cross the middle of the line.
 
 **Discoveries:** 
 Background(0); should be put under the draw() function, or else, rather than create a puck for bouncing back and forth, we will create multiple pucks overlapping each other.
 
-**What works and what does not work?**
-A part of the midterm project that cost me a lot of time was: creating the left and right strikers. Because the left and right paddles encompass different functionality, when including them under the same class of "Paddles", I need to look out for the possible contradictions among the functions and design the program more carefully.
+**What works and what does not work: Limit the paddles' range of movement**
+The left and right paddles encompass different functionality, when including them under the same class of "Paddles", I need to look out for the possible contradictions among the functions and design the program more carefully.
 
 First, I used boolean to determine the left and right paddles:
 ````
@@ -259,7 +259,7 @@ However, I was stuck for 2 hours trying to get the function work. Later on, I ga
 
 ![](test_2.gif)
 
-***Reflection of the day*** Achieved Goal2 & Goal3, and I will work on Goal1 and Problem2 tomorrow.
+***Reflection of the day*** (1) Achieved Goal2 & Goal3. (2) Will work on Goal1 and Problem2 later on.
 
 ## 2/27(Saturday)
 
@@ -275,14 +275,18 @@ However, I was stuck for 2 hours trying to get the function work. Later on, I ga
 6. Winner and Looser. 
 7. Choose the level of difficulties. 
 
+***Goal_1a__Change Puck's Angle:***
+1. Check out the article on Circles Collision: https://processing.org/examples/circlecollision.html
+2. Seek help from Discord.
+
+***Goal4__Game Stages:***
+Originally, I have two classes: (1) class Paddles{} (2) class Puck{}, for which I call the functions under the classses via the void draw() function. To create the game stages: start, play, end(restart), I decided to replace the void draw function with the playGame() function and included functions signifying the three game stages: startGame(), playGame(), and endGame under the void draw() function. I opened a new sketch to make this change to avoid potential mistakes from the new change ruining the program. 
+
+
+**Discoveries:** For a boolean, only varibales can be assigned to be true or false.
 ***Things learned during the process***
 1. PVector
 2. .add
 3. random2D
 4. map
 
-
-***For Goal_1a:***
-Check out the article on circles collision: https://processing.org/examples/circlecollision.html
-
-**Discoveries:** For a boolean, only varibales can be assigned to be true or false.

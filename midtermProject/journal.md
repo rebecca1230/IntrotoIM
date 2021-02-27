@@ -314,9 +314,11 @@ While the startGame() function does work and links to the playScreen, I encounte
 ````
 //[1]create a global variable
 String gameStage;
+
 //[2]set startScreen as default
 void setup() {
   gameStage = "START";
+
 //[3]change the draw() function
 void draw() {
   if (gameStage == "START") {
@@ -327,6 +329,7 @@ void draw() {
     endGame();
   }
 }
+
 //[4]Change the if statement under startGame() function
   if (mouseX > width/2-50 && mouseX < width/2+50
     && mouseY > height/4-40 && mouseY < height/4+40

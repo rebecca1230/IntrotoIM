@@ -312,14 +312,14 @@ Plus the following code under the startGame() function:
 While the startGame() function does work and links to the playScreen, I encountered the problem of **The startScreen will only go away during the 0.2 second of mousePressed.** This was undesirable as I need the startScreen to be constantly removed after the game started. The "if press the start button, then playGame()" is sure needed to bridge the startScreen and playScreen. However, I need a command that makes a clearer transition. So, I discarded "boolean" and used "String" to connect all gaming stages:
 
 ````
-//[1]create a global variable
+//[1]Create a global variable
 String gameStage;
 
-//[2]set startScreen as default
+//[2]Set startScreen as default
 void setup() {
   gameStage = "START";
 
-//[3]change the draw() function
+//[3]Change the draw() function
 void draw() {
   if (gameStage == "START") {
     startGame();

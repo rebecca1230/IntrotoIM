@@ -309,7 +309,32 @@ Plus the following code under the startGame() function:
     playGame();
   }
 ````
-While the startGame() function does work and links to the playGame screen, I encountered the problem of **The startGame screen will only go away during the 0.2 second of mousePressed.** This was undesirable as I need the startGame screen to be constantly removed after the game started. 
+While the startGame() function does work and links to the playScreen, I encountered the problem of **The startScreen will only go away during the 0.2 second of mousePressed.** This was undesirable as I need the startScreen to be constantly removed after the game started. The "if press the start button, then playGame()" is sure needed to bridge the startScreen and playScreen. However, I need a command that makes a clearer transition. So, I discarded "boolean" and used "String" to connect all gaming stages:
+
+````
+//[1]create a global variable
+String gameStage;
+//[2]set startScreen as default
+void setup() {
+  gameStage = "START";
+//[3]change the draw() function
+void draw() {
+  if (gameStage == "START") {
+    startGame();
+  } else if (gameStage == "PLAY") {
+    playGame();
+  } else if (gameStage == "END") {
+    endGame();
+  }
+}
+//[4]Change the if statement under startGame() function
+  if (mouseX > width/2-50 && mouseX < width/2+50
+    && mouseY > height/4-40 && mouseY < height/4+40
+    && mousePressed) {
+      gameStage = "PLAY";
+  }
+````
+Problem solved!!!
 
 **Discoveries:** For a boolean, only varibales can be assigned to be true or false.
 ***Things learned during the process***

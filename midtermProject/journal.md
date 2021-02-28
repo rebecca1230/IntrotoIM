@@ -259,7 +259,7 @@ However, I was stuck for 2 hours trying to get the function work. Later on, I ga
 
 ![](test_2.gif)
 
-***Reflection of the day*** (1) Achieved Goal2 & Goal3. (2) Will work on Goal1 and Problem2 later on.
+***Wrapping up the day*** (1) Achieved Goal2 & Goal3. (2) Will work on Goal1 and Problem2 later on.
 
 ## 2/27(Saturday)
 
@@ -269,17 +269,17 @@ However, I was stuck for 2 hours trying to get the function work. Later on, I ga
   b) Allow a harder hit of the paddle leads to acceleration of the puck.  
   c) Allow two keys' press to work at the same time.  
   d) Let the puck exist in the middle of the screen during a new session(game after someone scored).  
-3. Refine background and enhance aesthetic. 
-4. Create the start and restart function of the game.
-5. Add sound. 
-6. Winner and Looser. 
-7. Choose the level of difficulties. 
+2. Refine background and enhance aesthetic. 
+3. Create the start and restart function of the game.
+4. Add sound. 
+5. Winner and Looser. 
+6. Choose the level of difficulties. 
 
 ***Goal_1a__Change Puck's Angle:***
 1. Check out the article on Circles Collision: https://processing.org/examples/circlecollision.html
 2. Seek help from Discord.
 
-***Goal4__Game Stages:***
+***Goal3__Game Stages:***
 
 ****Step 1:**** Originally, I have two classes: (1) class Paddles{} (2) class Puck{}, for which I call the functions under the classses via the void draw() function. To create the game stages: start, play, end(restart), I decided to replace the void draw function with the playGame() function and included functions signifying the three game stages: startGame(), playGame(), and endGame under the void draw() function. I opened a new sketch to make this change to avoid potential mistakes from the new change ruining the program. However, having both the startGame() and playGame() functions ready, I was wondering which screen will the program display first and I tried the progran. While the program displayed the playGame() function first, it weirdly combined the two functions: the textFont "Opensans" I added under the startGame() function for dispaly the phrase "Tabble Hockey" was used under playGame() as the font for the score count.  
 
@@ -354,7 +354,10 @@ So, what happened was that when the game ends, either the left or right player w
 1. For a boolean, only varibales can be assigned to be true or false.
 2. A key to debug is go over the codes with crystal clear logic, no assumptions, but a mind of the computer. 
 
-***Things learned during the process***
+**Wrapping up the day:** Achieved (1) Goal 3 & Goal 5. (2) Will work on other parts later on.
+
+
+***Things to learn***
 1. PVector
 2. .add
 3. random2D

@@ -356,6 +356,9 @@ So, what happened was that when the game ends, either the left or right player w
 
 **Wrapping up the day:** Achieved (1) Goal 3 & Goal 5. (2) Will work on other parts later on.
 
+## 2/27 Sunday
+1. **Goal of "Change the puck's angle":** Check out videos about PVector: https://www.youtube.com/watch?v=mWJkvxQXIa8&list=PLRqwX-V7Uu6ZwSmtE13iJBcoI-r4y7iEc
+
 
 ***Things to learn***
 1. PVector

@@ -339,6 +339,10 @@ void draw() {
 ````
 Problem solved!!!
 
+However, when I used the same logic to create the restart function [if (gameStage == "END") { endGame();] and endGame() includes gameStage == "PLAY" just like how the startGame() function did, the program does not permanently enter the playGame mode, as when the mouseReleased, the endGame screen will exist again. The bug is demo in the following: 
+
+![](bug_play_again.gif)
+
 **Discoveries:** For a boolean, only varibales can be assigned to be true or false.
 ***Things learned during the process***
 1. PVector

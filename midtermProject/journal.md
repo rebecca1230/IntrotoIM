@@ -339,11 +339,21 @@ void draw() {
 ````
 Problem solved!!!
 
-However, when I used the same logic to create the restart function [if (gameStage == "END") { endGame();] and endGame() includes gameStage == "PLAY" just like how the startGame() function did, the program does not permanently enter the playGame mode, as when the mouseReleased, the endGame screen will exist again. The bug is demo in the following: 
+However, when I used the same logic to create the restart function [if (gameStage == "RESTART") { restart();] and the restart() function includes gameStage == "PLAY" just like how the startGame() function did, the program does not permanently enter the playGame mode, as when the mouseReleased, the restartScreen will exist again. The bug is demo in the following: 
 
 ![](bug_play_again.gif)
 
-**Discoveries:** For a boolean, only varibales can be assigned to be true or false.
+After hours of scruitizing my code, seeking help, and playing around mousePressed() to see if there is something wrong about it, I finally removed the bug with two simple lines: 
+````
+    leftscore = 0;
+    rightscore = 0;
+````
+So, what happened was that when the game ends, either the left or right player was still winning. In that sense, the gameStage automatically enters "RESTART" *again*. Only when the mouse was pressed would the screen enter the playGame mode. Therefore, to erase the scores of left and right players, I should reset their scores. 
+
+**Discoveries:** 
+1. For a boolean, only varibales can be assigned to be true or false.
+2. A key to debug is go over the codes with crystal clear logic, no assumptions, but a mind of the computer. 
+
 ***Things learned during the process***
 1. PVector
 2. .add

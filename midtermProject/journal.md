@@ -1,13 +1,12 @@
 # Midterm Journal 
 
-**What is the midterm project about?** The midterm project is about creating a 2 players table hockey where the needed elements are: 
-(1) the paddles the players will use to hit (2) the puck(the name of the disk being pass back and forth between the players.
-The players can choose four 3 types of tournaments, classified by the number of goals needed to win the game: (1) 7 goals; (2) 9 goals; (3) 11 goals.
+**Air Hockey** \
+The midterm project is about creating a 2 players air hockey game. Air 
+<p align="center">
+   <img src="airhockey.jpg">
 
 ## 2/18(Thursday)
-Spent a while researching how to avoid the Processing crash in the long term. The following is the error message of the crash:
-
-![](error_message.png)
+Spent a while researching how to avoid the Processing crash in the long term. 
 
 ## 2/19(Friday)
 Rather than dive into coding, I first spent some time reviewing Lecture notes and scrutinizing codes of the art and games done with Processing, because I thought I should get myself more familiar with the Processing functions. Once I have a stronger foundation on familiarizing the overall program structure, I may avoid stuck on daunting debugging. 

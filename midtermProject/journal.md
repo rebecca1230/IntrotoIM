@@ -17,6 +17,7 @@ Today, I did the following three tasks:
 1. Reviewed the map function to see how that may allow me to create paddles.
 2. Checked out the codes of some games created by others on https://openprocessing.org/curation/25/
 3. Discovered the code for the game *Catch the Flag* worth learning. 
+
 **Reflection** 
 Seeing how the *Catch the Flag* game did not have players use the mouse, I am inspired to have both players using keys to be fair for everyone. Player 1 will use the key "WSAE" as "up, down, left, right", whereas Player 2 will use the actual "up down left right" keys for playing.
 
@@ -94,6 +95,7 @@ Today, I did the following three tasks:
     3. Allow the puck to bounce when hit the upper and lower edges.
     4. The left player can move the paddle up, down, left, and right by pressing the keys: WSEA.
     5. The right player can move the paddle up, down, left, and right by pressing the arrow keys: UP,DOWN,LEFT,RIGHT.
+
 **Reflection** 
 I realized that the proportion between xspeed and yspeed is important. For the speed of the puck (xspeed, yspeed), if xspeed is larger than the yspeed, then the puck will slide off the screen before having the chance to bounce up and down in between the screen. 
 
@@ -102,8 +104,10 @@ Today, I did the following three tasks:
 2. Reviewed more coding concepts that allow me to proceed in creating more sophisticated functions.
 3. Redesigned the background. 
 4. Created the functiom that limits the paddles' range of movementlet (making both the left and right paddles unable to cross the middle of the table).
+
 **Reflection** 
 Background(0); should be put under the draw() function, or else, rather than create a puck for bouncing back and forth, we will create multiple pucks overlapping each other.
+
 **What works and what does not work: Limit the paddles' range of movement** \
 At first, both paddles could move on all parts of the screen. However, what I want was the left paddle having only the area (0, width/2) and the right paddle haivng (width/2,width). It took me a while to figure out how to make different objects under the same class to acquire different ranges. The following is the progress:
 

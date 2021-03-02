@@ -3,30 +3,33 @@
 <p align="center">
   <img src="airhockey.png" height="400">
   
-**Air Hockey** \
+## Air Hockey** 
 This midterm project is about creating a 2 players air hockey game. In this air hockey game, two players will each position at the edges of the table and receive a paddle for hitting the puck (the disk being pass back and forth between the players). The player who first recevied a score of 9 will be the winner. 
    
-## Feb 18 Thursday \
+## Feb 18 Thursday 
 Today, I experienced a Processing crash and I have spent most of my time researching on how to solve it in the long term. 
 
-## Feb 19 Friday \
+## Feb 19 Friday 
 Today, I reviewed Lecture notes and scrutinized codes of the arts and games done with Processing, for the sake to familarize the Processing functions and develop a stronger coding foundation allowing myself to avoid stuck on daunting debugging. 
 
-## Feb 20 Saturday \
+## Feb 20 Saturday 
 Today, I did the following three tasks:
 1. Reviewed the map function to see how that may allow me to create paddles.
 2. Checked out the codes of some games created by others on https://openprocessing.org/curation/25/
 3. Discovered the code for the game *Catch the Flag* worth learning. 
-**Reflection** \
+**Reflection** 
 Seeing how the *Catch the Flag* game did not have players use the mouse, I am inspired to have both players using keys to be fair for everyone. Player 1 will use the key "WSAE" as "up, down, left, right", whereas Player 2 will use the actual "up down left right" keys for playing.
 
-## Feb 21 Sunday \
+## Feb 21 Sunday 
 Today, I went through coding concepts that might be of use, such as:
    a) Basic functions such as arrray and for loop.
    b) kepPressed();
 
-## Feb 22 Monday \
+## Feb 22 Monday 
+<p align="center">
+  <img src="background.png" height="400">
 Today, I created the background.
+  
 ````
 int fontsize = 80;
 
@@ -55,11 +58,10 @@ void draw() {
   circle(width/2, height/2, 40);
 }
 ````
-<p align="center">
-  <img src="background.png" height="400">
 
-## Feb 23 Tuesday \ 
+## Feb 23 Tuesday 
 Today, I tried to create the start and restart functions. While incomplete, the following is the progress and experiments. 
+
 ````
 void startgame() {
   boolean start= true;
@@ -81,7 +83,7 @@ void game() {
 }
 ````
 
-## Feb 24 Wednesday \
+## Feb 24 Wednesday 
 Today, I did the following three tasks:
 1. Created a class for Paddles.
 2. Created a class for Puck. 
@@ -91,15 +93,15 @@ Today, I did the following three tasks:
     3. Allow the puck to bounce when hit the upper and lower edges.
     4. The left player can move the paddle up, down, left, and right by pressing the keys: WSEA.
     5. The right player can move the paddle up, down, left, and right by pressing the arrow keys: UP,DOWN,LEFT,RIGHT.
-**Reflection** \
+**Reflection** 
 I realized that the proportion between xspeed and yspeed is important. For the speed of the puck (xspeed, yspeed), if xspeed is larger than the yspeed, then the puck will slide off the screen before having the chance to bounce up and down in between the screen. 
 
-## Feb 25 Thursday \
+## Feb 25 Thursday 
 Today, I did the following three tasks:
 2. Reviewed more coding concepts that allow me to proceed in creating more sophisticated functions.
 3. Redesigned the background. 
 4. Created the functiom that limits the paddles' range of movementlet (making both the left and right paddles unable to cross the middle of the table).
-**Reflection** \
+**Reflection** 
 Background(0); should be put under the draw() function, or else, rather than create a puck for bouncing back and forth, we will create multiple pucks overlapping each other.
 **What works and what does not work: Limit the paddles' range of movement** \
 At first, both paddles could move on all parts of the screen. However, what I want was the left paddle having only the area (0, width/2) and the right paddle haivng (width/2,width). It took me a while to figure out how to make different objects under the same class to acquire different ranges. The following is the progress:
@@ -135,9 +137,9 @@ Unfortunately, nothing changed. Later on, I separated two paddles' range for x v
   ````
   And it works! 
 
-## Feb 26 Friday \
+## Feb 26 Friday 
 
-**Gaol for the day:** \
+**Gaol for the day:** 
 1. Allow the paddles to move at the same time. 
 2. The puck bounce off as soon as a paddle touches it. 
 3. Score and count the scores.
@@ -265,7 +267,7 @@ However, I was stuck for 2 hours trying to get the function work. Later on, I ga
 
 ***Wrapping up the day*** (1) Achieved Goal2 & Goal3. (2) Will work on Goal1 and Problem2 later on.
 
-## 2/27(Saturday)
+## Feb 27 Saturday 
 
 **Goal of the day:** 
 1. Should resolve some bugs and change the speed or size of paddle/puck to make the game smoother.  
@@ -360,7 +362,7 @@ So, what happened was that when the game ends, either the left or right player w
 
 **Wrapping up the day:** Achieved (1) Goal 3 & Goal 5. (2) Will work on other parts later on.
 
-## 2/27 Sunday
+## Feb 28 Sunday
 1. **Goal of "Change the puck's angle":** Check out videos about PVector: https://www.youtube.com/watch?v=mWJkvxQXIa8&list=PLRqwX-V7Uu6ZwSmtE13iJBcoI-r4y7iEc
 
 

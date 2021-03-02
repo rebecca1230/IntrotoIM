@@ -1,31 +1,32 @@
 # Midterm Journal 
 
-**Air Hockey** \
-The midterm project is about creating a 2 players air hockey game.  
-
 <p align="center">
-  <img src="airhockey.png" height="330">
+  <img src="airhockey.png" height="400">
+  
+**Air Hockey** \
+This midterm project is about creating a 2 players air hockey game. In this air hockey game, two players will each position at the edges of the table and receive a paddle for hitting the puck (the disk being pass back and forth between the players). The player who first recevied a score of 9 will be the winner. 
    
-## 2/18(Thursday)
-Spent a while researching how to avoid the Processing crash in the long term. 
+## Feb 18 Thursday \
+Today, I experienced a Processing crash and I have spent most of my time researching on how to solve it in the long term. 
 
-## 2/19(Friday)
-Rather than dive into coding, I first spent some time reviewing Lecture notes and scrutinizing codes of the art and games done with Processing, because I thought I should get myself more familiar with the Processing functions. Once I have a stronger foundation on familiarizing the overall program structure, I may avoid stuck on daunting debugging. 
+## Feb 19 Friday \
+Today, I reviewed Lecture notes and scrutinized codes of the arts and games done with Processing, for the sake to familarize the Processing functions and develop a stronger coding foundation allowing myself to avoid stuck on daunting debugging. 
 
-## 2/20(Saturday)
-1. Reviewed the map function to see how that may allow me to create strikers.
+## Feb 20 Saturday \
+Today, I did the following three tasks:
+1. Reviewed the map function to see how that may allow me to create paddles.
 2. Checked out the codes of some games created by others on https://openprocessing.org/curation/25/
 3. Discovered the code for the game *Catch the Flag* worth learning. 
-**Inspiration**
+**Reflection** \
 Seeing how the *Catch the Flag* game did not have players use the mouse, I am inspired to have both players using keys to be fair for everyone. Player 1 will use the key "WSAE" as "up, down, left, right", whereas Player 2 will use the actual "up down left right" keys for playing.
 
-## 2/21(Sunday)
-Went through tools that might be of use, such as:
+## Feb 21 Sunday \
+Today, I went through coding concepts that might be of use, such as:
    a) Basic functions such as arrray and for loop.
    b) kepPressed();
 
-## 2/22(Monday)
-Created background for the table hockey game.
+## Feb 22 Monday \
+Today, I created the background.
 ````
 int fontsize = 80;
 
@@ -54,10 +55,11 @@ void draw() {
   circle(width/2, height/2, 40);
 }
 ````
-![](background.png)
+<p align="center">
+  <img src="background.png" height="400">
 
-## 2/23(Tuesday)
-Figuring out how to create the start and restart game function, and the following are the incomplete codes:
+## Feb 23 Tuesday \ 
+Today, I tried to create the start and restart functions. While incomplete, the following is the progress and experiments. 
 ````
 void startgame() {
   boolean start= true;
@@ -79,27 +81,28 @@ void game() {
 }
 ````
 
-## 2/24(Wednesday)
-1. Created a class for Paddles and another class for Puck. 
-2. Included some functions in the classes that can do the following:
+## Feb 24 Wednesday \
+Today, I did the following three tasks:
+1. Created a class for Paddles.
+2. Created a class for Puck. 
+3. Included some functions in the classes that can do the following:
     1. Display the puck.
     2. Display the paddles.
-    3. Create a move function that lets the puck bounces back and forth in between the upper and lower edges.
-    4. With the keyPressed() function, two players are able to move the paddles up and down with the keys WSEA, and arrow keys UP,DOWN,RIGHT,LEFT.
+    3. Allow the puck to bounce when hit the upper and lower edges.
+    4. The left player can move the paddle up, down, left, and right by pressing the keys: WSEA.
+    5. The right player can move the paddle up, down, left, and right by pressing the arrow keys: UP,DOWN,LEFT,RIGHT.
+**Reflection** \
+I realized that the proportion between xspeed and yspeed is important. For the speed of the puck (xspeed, yspeed), if xspeed is larger than the yspeed, then the puck will slide off the screen before having the chance to bounce up and down in between the screen. 
 
-**Discoveries:** 
-For the speed of the puck (xspeed, yspeed), if xspeed is larger than the yspeed, then the puck will be slid off the screen, instead of having the chance to bounce up and down in between the screen. To sum up, the proportion of the speed of (x,y) is important. 
-
-## 2/25(Thursday)
-1. Spent most of the time reviewing concepts that allow me to proceed in creating more sophisticated functions.
+## Feb 25 Thursday \
+Today, I did the following three tasks:
+2. Reviewed more coding concepts that allow me to proceed in creating more sophisticated functions.
 3. Redesigned the background. 
-4. Created the functiom that let the left and right paddles unable to cross the middle of the line.
-
-**Discoveries:** 
+4. Created the functiom that limits the paddles' range of movementlet (making both the left and right paddles unable to cross the middle of the table).
+**Reflection** \
 Background(0); should be put under the draw() function, or else, rather than create a puck for bouncing back and forth, we will create multiple pucks overlapping each other.
-
-**What works and what does not work: Limit the paddles' range of movement**
-The left and right paddles encompass different functionality, when including them under the same class of "Paddles", I need to look out for the possible contradictions among the functions and design the program more carefully.
+**What works and what does not work: Limit the paddles' range of movement** \
+At first, both paddles could move on all parts of the screen. However, what I want was the left paddle having only the area (0, width/2) and the right paddle haivng (width/2,width). It took me a while to figure out how to make different objects under the same class to acquire different ranges. The following is the progress:
 
 First, I used boolean to determine the left and right paddles:
 ````
@@ -132,8 +135,9 @@ Unfortunately, nothing changed. Later on, I separated two paddles' range for x v
   ````
   And it works! 
 
-## 2/26(Friday)
-**Gaol for the day:** At this point, we have two paddles that the players can control. However, we still need:
+## Feb 26 Friday \
+
+**Gaol for the day:** \
 1. Allow the paddles to move at the same time. 
 2. The puck bounce off as soon as a paddle touches it. 
 3. Score and count the scores.

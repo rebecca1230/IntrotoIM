@@ -4,7 +4,7 @@
 The midterm project is about creating a 2 players air hockey game.  
 
 <p align="center">
-  <img src="airhockey.jpg" height="330">
+  <img src="airhockey.png" height="330">
    
 ## 2/18(Thursday)
 Spent a while researching how to avoid the Processing crash in the long term. 

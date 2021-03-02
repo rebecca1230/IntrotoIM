@@ -3,8 +3,7 @@
 **Air Hockey** \
 The midterm project is about creating a 2 players air hockey game. Air 
 <p align="center">
-   <img src="airhockey.jpg">
-
+   ![](airhockey.png)
 ## 2/18(Thursday)
 Spent a while researching how to avoid the Processing crash in the long term. 
 

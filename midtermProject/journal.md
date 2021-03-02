@@ -86,24 +86,24 @@ void game() {
 ````
 
 ## Feb 24 Wednesday 
-Today, I did the following three tasks:
-1. Created a class for Paddles.
-2. Created a class for Puck. 
-3. Included some functions in the classes that can do the following:
-    1. Display the puck.
-    2. Display the paddles.
-    3. Allow the puck to bounce when hit the upper and lower edges.
-    4. The left player can move the paddle up, down, left, and right by pressing the keys: WSEA.
-    5. The right player can move the paddle up, down, left, and right by pressing the arrow keys: UP,DOWN,LEFT,RIGHT.
+Today, I did the following three tasks:  
+1. Created a class for Paddles.  
+2. Created a class for Puck.  
+3. Included some functions in the classes that can do the following:  
+    1. Display the puck.  
+    2. Display the paddles.  
+    3. Allow the puck to bounce when hit the upper and lower edges.  
+    4. The left player can move the paddle up, down, left, and right by pressing the keys: WSEA.  
+    5. The right player can move the paddle up, down, left, and right by pressing the arrow keys: UP,DOWN,LEFT,RIGHT.  
 
 **Reflection** 
 I realized that the proportion between xspeed and yspeed is important. For the speed of the puck (xspeed, yspeed), if xspeed is larger than the yspeed, then the puck will slide off the screen before having the chance to bounce up and down in between the screen. 
 
 ## Feb 25 Thursday 
-Today, I did the following three tasks:
-2. Reviewed more coding concepts that allow me to proceed in creating more sophisticated functions.
-3. Redesigned the background. 
-4. Created the functiom that limits the paddles' range of movementlet (making both the left and right paddles unable to cross the middle of the table).
+Today, I did the following three tasks:  
+2. Reviewed more coding concepts that allow me to proceed in creating more sophisticated functions.  
+3. Redesigned the background.  
+4. Created the functiom that limits the paddles' range of movementlet (making both the left and right paddles unable to cross the middle of the table).  
 
 **Reflection** 
 Background(0); should be put under the draw() function, or else, rather than create a puck for bouncing back and forth, we will create multiple pucks overlapping each other.
@@ -145,9 +145,9 @@ Unfortunately, nothing changed. Later on, I separated two paddles' range for x v
 ## Feb 26 Friday 
 
 **Gaol for the day:** 
-1. Allow the paddles to move at the same time. 
-2. The puck bounce off as soon as a paddle touches it. 
-3. Score and count the scores.
+1. Allow the paddles to move at the same time.  
+2. The puck bounce off as soon as a paddle touches it.  
+3. Score and count the scores.  
 
 ***For Goal 2*** I tried out the following codes:
 ````

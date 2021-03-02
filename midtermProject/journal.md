@@ -28,6 +28,7 @@ Today, I went through coding concepts that might be of use, such as:
 ## Feb 22 Monday 
 <p align="center">
   <img src="background.png" height="400">
+  
 Today, I created the background.
   
 ````

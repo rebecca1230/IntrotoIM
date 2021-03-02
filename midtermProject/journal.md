@@ -3,7 +3,7 @@
 <p align="center">
   <img src="airhockey.png" height="400">
   
-## Air Hockey** 
+## Air Hockey 
 This midterm project is about creating a 2 players air hockey game. In this air hockey game, two players will each position at the edges of the table and receive a paddle for hitting the puck (the disk being pass back and forth between the players). The player who first recevied a score of 9 will be the winner. 
    
 ## Feb 18 Thursday 

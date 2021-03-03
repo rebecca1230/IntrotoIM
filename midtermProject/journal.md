@@ -105,7 +105,7 @@ Today, I did the following three tasks:
 2. Redesigned the background.  
 3. Created the functiom that limits the paddles' range of movementlet (making both the left and right paddles unable to cross the middle of the table).  
 
-**Reflection** 
+**Reflection** \
 Background(0); should be put under the draw() function, or else, rather than create a puck for bouncing back and forth, we will create multiple pucks overlapping each other.
 
 **What works and what does not work: Limit the paddles' range of movement** \
@@ -149,7 +149,8 @@ Unfortunately, nothing changed. Later on, I separated two paddles' range for x v
 2. The puck bounce off as soon as a paddle touches it.  
 3. Score and count the scores.  
 
-***For Goal 2*** I tried out the following codes:
+***For Goal 2*** 
+I tried out the following codes:
 ````
   void checkPaddleLeft (Paddles p) {
     if (x == p.x) {
@@ -169,7 +170,7 @@ Unfortunately, nothing changed. Later on, I separated two paddles' range for x v
     }
   }
   ````
-However, that was not effective, so I try to discover some solutions by checking the code of "Multiple object collision" from here: https://processing.org/examples/bouncybubbles.html. Unfortunately, that was not helpful. 
+However, that was not effective, so I try to discover some solutions by checking the code of "Bouncy Bubbles" from here: https://processing.org/examples/bouncybubbles.html. Unfortunately, that was not helpful. 
 
 ***For Goal 3***
 Frustrated about unable to achieve Goal 2, I decided to first work on Goal 3: create the score function. The tricky part is to let the score happen only when the puck is at a specific "y" range, and the following code that I first tried did not work:
@@ -214,7 +215,7 @@ Frustrated about unable to achieve Goal 2, I decided to first work on Goal 3: cr
   ````
   However, two problems occurred: 
   1. The left paddle does not work anymore. 
-  2. I need to find a way to let the puck that resets to the middle after someone scored stop moving until a paddle touches it, during a new session.
+  2. Need to let the puck that resets to the center of the table after someone scored to stop moving in the beginning of a new session until a paddle touches it.
 
 ***For Problem 1***
 I solved it by changing the following code:

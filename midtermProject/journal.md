@@ -217,7 +217,7 @@ Frustrated about unable to achieve Goal 2, I decided to first work on Goal 3: cr
   1. The left paddle does not work anymore. 
   2. Need to let the puck that resets to the center of the table after someone scored to stop moving in the beginning of a new session until a paddle touches it.
 
-***For Problem 1***
+***For Problem 1*** \
 I solved it by changing the following code:
 ````
   } else if (key =='a') {
@@ -235,7 +235,7 @@ to the following code:
     if (keyCode == UP) {
       right.moveY(-10);
 ````
-***Back to Goal 2***
+***Back to Goal 2*** \
 I tried to solve the puck and paddles collide issue by writing a function that checks whether the puck and the paddles overlap with use of the paddles' ellipse, then use boolean to execute that if overlap is true, then puck reverse its direction:
 ````
 float function;
@@ -287,11 +287,11 @@ However, I was stuck for 2 hours trying to get the function work. Later on, I ga
 5. Winner and Looser. 
 6. Choose the level of difficulties. 
 
-***Goal_1a__Change Puck's Angle:***
+***Goal_1_Change Puck's Angle:***
 1. Check out the article on Circles Collision: https://processing.org/examples/circlecollision.html
 2. Seek help from Discord.
 
-***Goal3__Game Stages:***
+***Goal_3__Game Stages:***
 
 ****Step 1:**** Originally, I have two classes: (1) class Paddles{} (2) class Puck{}, for which I call the functions under the classses via the void draw() function. To create the game stages: start, play, end(restart), I decided to replace the void draw function with the playGame() function and included functions signifying the three game stages: startGame(), playGame(), and endGame under the void draw() function. I opened a new sketch to make this change to avoid potential mistakes from the new change ruining the program. However, having both the startGame() and playGame() functions ready, I was wondering which screen will the program display first and I tried the progran. While the program displayed the playGame() function first, it weirdly combined the two functions: the textFont "Opensans" I added under the startGame() function for dispaly the phrase "Tabble Hockey" was used under playGame() as the font for the score count.  
 

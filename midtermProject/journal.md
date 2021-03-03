@@ -149,7 +149,7 @@ Unfortunately, nothing changed. Later on, I separated two paddles' range for x v
 2. The puck bounce off as soon as a paddle touches it.  
 3. Score and count the scores.  
 
-***For Goal 2*** 
+***For Goal 2*** \
 I tried out the following codes:
 ````
   void checkPaddleLeft (Paddles p) {
@@ -172,7 +172,7 @@ I tried out the following codes:
   ````
 However, that was not effective, so I try to discover some solutions by checking the code of "Bouncy Bubbles" from here: https://processing.org/examples/bouncybubbles.html. Unfortunately, that was not helpful. 
 
-***For Goal 3***
+***For Goal 3*** \
 Frustrated about unable to achieve Goal 2, I decided to first work on Goal 3: create the score function. The tricky part is to let the score happen only when the puck is at a specific "y" range, and the following code that I first tried did not work:
 ````
   void edges() {

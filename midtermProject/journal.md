@@ -369,12 +369,46 @@ So, what happened was that when the game ends, either the left or right player w
 **Wrapping up the day:** Achieved (1) Goal 3 & Goal 5. (2) Will work on other parts later on.
 
 ## Feb 28 Sunday
-1. **Goal of "Change the puck's angle":** Check out videos about PVector: https://www.youtube.com/watch?v=mWJkvxQXIa8&list=PLRqwX-V7Uu6ZwSmtE13iJBcoI-r4y7iEc
+1. Checked out videos about PVector: https://www.youtube.com/watch?v=mWJkvxQXIa8&list=PLRqwX-V7Uu6ZwSmtE13iJBcoI-r4y7iEc
+2. Learned *PVector*
+3. Learned *.add*
+4. Learned *random2D*
+5. Learned *map*
+6. Added sound
 
+***PVector*** \
+Applied PVector to my puck and added acceleration to the puck:
+````
+class Puck {
+  Puck() {
+    location = new PVector(width/2, height/2); //set puck's location
+    velocity = new PVector(2, 3); //set puck's velocity
+    acceleration = new PVector(0.005, 0); //set puck's acceleration
+  }
+  void update() {
+    location.add(velocity); //add velocity to puck's location
+    velocity.add(acceleration); //add acceleration to puck's location
+  }
+````
+While the added acceleration made the puck's movement matches the physic's laws more, the puck was still not bouncing off from the paddles with the correct angles.
 
-***Things to learn***
-1. PVector
-2. .add
-3. random2D
-4. map
+***PVector*** \
+Searched for the following for sounds online and applied each to the game phases of (1) puck collision (2) someone scored (3) endGame (4) startGame.
+````
+SoundFile hockey;
+SoundFile score;
+SoundFile congratulations;
+SoundFile kidding;
+````
+## March 1 Monday
+Game is mostly complete, with some bugs waiting for solutions.
 
+## March 2 Tuesday 
+During class:
+1. Solved the problem of the startGame music can not stop even when game started with the function isPlaying(), detecting if the song is playing and linked the result to further actions with true/false statements. 
+2. Discussed how to adjust the angles of the puck to be more realistic. 
+
+## March 3 Wednesday
+Today, I did the following:
+1. Reviewed codes.
+2. Optimized the program. 

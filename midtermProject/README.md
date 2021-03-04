@@ -4,28 +4,11 @@
 
 **Demo:**
 
-1. For the .pde files, please view the folder named "theproject" under this midtermProject folder.
-2. For the journal of making this midterm proejct, please view "journal.md" inside this midtermProject folder. 
-
 <p align="center">
   <img src="start_to_score.gif" height="400">
 
-***Start game > Score a point:***
-
-<p align="center">
-  <img src="play_to_end.gif" height="400">
-  
-***Play game > End game:***
-
-<p align="center">
-  <img src="end_to_restart.gif" height="400">
-  
-***End game > Restart:***
-
-## Game Stages
-
-<p align="center">
-  <img src="start.png" height="400">
+1. For the .pde files, please view the folder named "theproject" under this midtermProject folder.
+2. For the journal of making this midterm proejct, please view "journal.md" inside this midtermProject folder. 
 
 **Start Screen:**
 This program will take some time to load because it has four sound files. In the start screen, the players will encounter: (1) a green screen displaying the button that invites them to press to start the game; (2) the name of the game "Air Hockey"; (3) the instructions of which players should use which keys. Moreover, the players will hear joyful music. 
@@ -47,6 +30,12 @@ Towards the end of an intense game, we can see that the left player is about to 
   
 **End Screen:**
 Finally, the game ended, and the left player indeed won. At this point, all players will hear the music of congratulations constantly replaying and see a message of congratulations display on the screen. Lastly, the players may choose to play again by clicking the button play again.  
+
+<p align="center">
+  <img src="after_restart.png" height="400">
+  
+**After Restart:**
+If the players choose to play again, they will encounter this setup of the game and able to start playing. 
 
 ## Major problems and modification 
 This project is hard to begin. It was not clear that I should right away create two classes for one is for the paddles, and the other is for the puck. However, once I get the basic framework done, I was excited to experiment with how different functions may play out. Some program functions are easier to code: import sound, import images, display text and draw shapes. However, the others may get me stuck for hours. 

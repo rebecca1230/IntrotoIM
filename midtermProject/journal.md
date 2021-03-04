@@ -410,5 +410,7 @@ During class:
 
 ## March 3 Wednesday
 Today, I did the following:
-1. Reviewed codes.
-2. Optimized the program. 
+1. Optimized the program.
+2. Imported image of the paddles. 
+3. Discarded using PVector and adjusted the collision function to give the puck right angles to bounce off. 
+4. Enhanced aesthetic. 

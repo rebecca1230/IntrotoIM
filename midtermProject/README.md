@@ -32,7 +32,7 @@ Towards the end of an intense game, we can see that the left player is about to 
 **End Screen**
 Finally, the game ended, and the left player indeed won. At this point, all players will hear the music of congratulations constantly replaying and see a message of congratulations display on the screen. Lastly, the players may choose to play again by clicking the button play again.  
 
-## Major problems and modification \
+## Major problems and modification 
 This project is hard to begin. It was not clear that I should right away create two classes for one is for the paddles, and the other is for the puck. However, once I get the basic framework done, I was excited to experiment with how different functions may play out. Some program functions are easier to code: import sound, import images, display text and draw shapes. However, the others may get me stuck for hours. 
 
 **void collision() problems** \
@@ -47,5 +47,5 @@ I insisted on creating an air hockey game that resembles a real-life scenario. T
 ***gameStages*** The gameStages can be tricky. What took me a long while to figure out was that I need to reset the game's condition (scores reset to zero) when a new game begins to prevent the endGame screen from constantly concluding that the game should end. 
 ***playing sounds*** Insert the sounds at the right location and apply the function isPlaying() to detect if the music is playing. If not, then we can call the soundFile.
 
-**Reflection** \
+## Reflection \
 I have no idea how the solutions to my problems and modifications were possible had I not have access to helping resources: Discord, classmates, other programmers' codes, Dan Shiffman's videos, Stack Overflow, and many more. I here shout out many thanks to my classmate Ayush. I had in total three zoom calls with him during working on this midterm project. Without his perspectives and coding experience, I might have drowned in the frustration of no way to go and the hopelessness of facing a stack of code but clueless about where went wrong. Programming is a collaborative effort.  An effective learning method is to comment on other people's code and internalizes that into my ability. This process is possible only when people are willing to share their knowledge. Thanks to the open resources and programmers' fresh perspectives. Those insights helped make my air hockey game plays like a real air hockey game. 

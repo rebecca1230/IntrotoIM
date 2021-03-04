@@ -3,8 +3,24 @@
 ## Description
 
 **Demo:**
+
 1. For the .pde files, please view the folder named "theproject" under this midtermProject folder.
 2. For the journal of making this midterm proejct, please view "journal.md" inside this midtermProject folder. 
+
+<p align="center">
+  <img src="start_to_score.gif" height="400">
+
+***Start game > Score a point:***
+
+<p align="center">
+  <img src="play_to_end.gif" height="400">
+  
+***Play game > End game:***
+
+<p align="center">
+  <img src="end_to_restart.gif" height="400">
+  
+***End game > Restart:***
 
 ## Game Stages
 

@@ -2,7 +2,8 @@
 
 ## Description
 For the midterm project, I created an air hockey game. This game includes two players, each positioning on the table's sides and hitting the puck with a paddle. The puck is the disk being passed back and forth between the players. The players receive a score when scoring the puck into the opponent's goal. In my air hockey version, the player who first scored the goal five times wins the game. 
-**Instructions** To control the paddles, the left player uses keys "wsae" or "WSAE", whereas the right player uses the arrow keys.
+**Instructions** 
+To control the paddles, the left player uses keys "wsae" or "WSAE", whereas the right player uses the arrow keys.
 
 **Demo:**
 

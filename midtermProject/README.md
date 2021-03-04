@@ -10,6 +10,11 @@
 1. For the .pde files, please view the folder named "theproject" under this midtermProject folder.
 2. For the journal of making this midterm proejct, please view "journal.md" inside this midtermProject folder. 
 
+## Game Stages
+
+<p align="center">
+  <img src="start.png" height="400">
+
 **Start Screen:**
 This program will take some time to load because it has four sound files. In the start screen, the players will encounter: (1) a green screen displaying the button that invites them to press to start the game; (2) the name of the game "Air Hockey"; (3) the instructions of which players should use which keys. Moreover, the players will hear joyful music. 
 

@@ -392,7 +392,7 @@ class Puck {
 ````
 While the added acceleration made the puck's movement matches the physic's laws more, the puck was still not bouncing off from the paddles with the correct angles.
 
-***PVector*** \
+***Sound*** \
 Searched for the following for sounds online and applied each to the game phases of (1) puck collision (2) someone scored (3) endGame (4) startGame.
 ````
 SoundFile hockey;

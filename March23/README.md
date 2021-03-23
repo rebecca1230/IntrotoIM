@@ -2,13 +2,13 @@
 
 
 ## Demo 
-[![Watch the video](/March23/one.JPG)](https://www.youtube.com/watch?v=8rpgXjDVZX0)
+[![Watch the video](one.jpg)](https://www.youtube.com/watch?v=8rpgXjDVZX0)
 
 ## The Puzzle: 
 For the 1st assignment, I choose to create a puzzle for which the participant will have to guess which two lights are "dancing friends" by pressing the three buttons. The colors of the lights and the buttons are correspondent to each other. 
 
 ## Schematic 
-![](schematic.png)
+![](schematic.jpg)
 
 ## Process
 I first spend time to go over the class materials, mainly understanding how the schematic matches the Arduino board. Then, I started experimenting how the different light positions may create different effects. Finally, I construct the puzzle I have in mind. 

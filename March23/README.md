@@ -14,7 +14,7 @@ For my project, I have three buttons(red, yellow, and blue), and three buttons w
 ![](schematic.JPG)
 
 ## Process
-I first spend time to go over the class materials, mainly understanding how the schematic matches the Arduino board. Then, I started experimenting how the different light positions may create different effects. Finally, I construct the puzzle I have in mind. I enhanced the difficulty of the puzzle the "Dancing Friend" by allowing them all to be flashing according to the light on the Arduino board by default. When buttons are pressed, the lightness of  the light bulbs connected to the particular buttons will enhanced. The design is to trick the participants' eyes and have them to be careful with their observations. 
+I first spend time to go over the class materials, mainly understanding how the schematic matches the Arduino board. Then, I started experimenting how the different light positions may create different effects. Finally, I construct the puzzle I have in mind. I enhanced the difficulty of the puzzle the "Dancing Friend" by allowing all light bulbs to by default flashing in the rate of the Arduino board's light. When buttons are pressed, the brightness of the light bulbs connected to the particular buttons will enhanced. The design is to trick the participants' eyes and have them to be careful with their observations. 
 
 ## Challenges
 It took me a LONG while to understand the relationship between different elements of the Arduino kit. While the Processing foundation developed from previous classes is helpful, I still was confused about incorporating the knowledge of creating visual artwork or games to make the buttons and lights on the board present meaningful interactions. I did not understand to what extent are the functions from Processing applicable to Arduino. Also, I repeatedly restart the assignment because it was easy for me to get lost when adding too many things to the board. Nevertheless, I have learned a lot from this assignment and catch up on the lecture information. 
@@ -22,7 +22,8 @@ It took me a LONG while to understand the relationship between different element
 ## Discoveries (more like notes)
 1. The brightness of the light when using the 10 resistence is smaller than using the 330 resistence. 
 2. The electricity flow is from left to right, and flow in the vertical direction on the board. 
-3. Does not matter having the resistence before or after the light bulb.
+3. Seems like it does not matter having the resistence before or after the light bulb.
 4. Some circuits may be unnecessary. 
+5. (For Chinese speakers) The vedios are very helpful https://www.youtube.com/watch?v=3mw-1Bvv0WU&list=PLdckmk1Jf8MYOED98iY13wdGi52h-O69X&index=1
 
 

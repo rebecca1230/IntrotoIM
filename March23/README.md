@@ -8,7 +8,7 @@
 For the 1st assignment, I choose to create a puzzle for which the participant will have to guess which two lights are "dancing friends" by pressing the three buttons. The colors of the lights and the buttons are correspondent to each other. 
 
 ## Schematic 
-![](schematic.jpg)
+![](schematic.JPG)
 
 ## Process
 I first spend time to go over the class materials, mainly understanding how the schematic matches the Arduino board. Then, I started experimenting how the different light positions may create different effects. Finally, I construct the puzzle I have in mind. 

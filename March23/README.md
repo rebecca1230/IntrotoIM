@@ -2,7 +2,7 @@
 
 
 ## Demo 
-[![Watch the video](Images/one.jpg)](https://www.youtube.com/watch?v=8rpgXjDVZX0)
+[![Watch the video](one.jpg)](https://www.youtube.com/watch?v=8rpgXjDVZX0)
 
 ## The Puzzle: 
 For the 1st assignment, I choose to create a puzzle for which the participant will have to guess which two lights are "dancing friends" by pressing the three buttons. The colors of the lights and the buttons are correspondent to each other. 

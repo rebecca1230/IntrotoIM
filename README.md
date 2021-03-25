@@ -27,4 +27,5 @@ however, if we leave a space line, we will have a new paragraph.
 9. Take note that for rectangle, y- is going up cuz its y-shows going vertical downward increases y-value. 
 10. README.md displays all the folders if click on it. 
 
- 
+## Note for Arduino UNO 
+1. Other analog sensors in Arduino UNO > https://www.learnrobotics.org/blog/popular-arduino-sensors/

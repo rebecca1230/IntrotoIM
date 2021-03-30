@@ -29,7 +29,7 @@ After I draw the schematics, I started working on the Arduino.
 
 After I completed the Arduino, I worked on writing the code. 
 
-#Final Demo
+## Final Demo
 
 Version with normal speed: 
 [![Watch the video](withoutsensor.jpg)](https://www.youtube.com/watch?v=rJ1uKhvLvmo)

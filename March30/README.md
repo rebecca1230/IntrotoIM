@@ -9,7 +9,8 @@ For this week's assignment, we are instructed to use at least one analog sensor 
 ## Process
 After I have an idea, I decide on the elements I need from Arduino: 3 light bulbs, 3 buttons, and 1 light sensor. Then, I draw the schematic. 
 
-![](schematic.jpg)
+<p align="center">
+  <img src="schematic.jpg" height="400">
 
 After I draw the schematics, I started working on the Arduino. 
 

@@ -31,8 +31,8 @@ After I completed the Arduino, I worked on writing the code.
 
 #Final Demo
 
-[![Watch the video](without.jpg)](https://www.youtube.com/watch?v=rJ1uKhvLvmo)
-[![Watch the video](with.jpg)](https://www.youtube.com/watch?v=-006g67Np04)
+[![Watch the video](withoutsensor.jpg)](https://www.youtube.com/watch?v=rJ1uKhvLvmo)
+[![Watch the video](withsensor.jpg)](https://www.youtube.com/watch?v=-006g67Np04)
 
 ## Difficulties
 Initially, I wanted to have pressing blue button for three times signify the song begins. However, I am unsure about how to write a code for that. Since we have learned: if (blueButton == HIGH) { digitalWrite (LED, HIGH) } Therefore, to have something happen after button being pressed for 3 times, we need code that does something like: if (blueButton == HIGH  and blueButton == LOW and blueButton == HIGH and blueButton == LOW and blueButton == HIGH and blueButton == LOW) {then the game starts}. This whole idea can not completely fit in the if statement. Or, it'll take too long for me to figure out, therefore, the design turned out to be a more flexible version. 

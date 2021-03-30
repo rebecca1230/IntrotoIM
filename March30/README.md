@@ -30,8 +30,10 @@ After I draw the schematics, I started working on the Arduino.
 After I completed the Arduino, I worked on writing the code. 
 
 #Final Demo
+
 Version with normal speed: 
 [![Watch the video](withoutsensor.jpg)](https://www.youtube.com/watch?v=rJ1uKhvLvmo)
+
 Version with a slower speed:
 [![Watch the video](withsensor.jpg)](https://www.youtube.com/watch?v=-006g67Np04)
 

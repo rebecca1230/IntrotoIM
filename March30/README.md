@@ -16,9 +16,11 @@ After I draw the schematics, I started working on the Arduino.
 
 <p align="center">
   <img src="1.jpg" height="400">
+  
 <p align="center">
   <img src="2.jpg" height="400">
-  <p align="center">
+
+<p align="center">
   <img src="3.jpg" height="400">
 
 After I completed the Arduino, I worked on writing the code. 

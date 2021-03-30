@@ -14,14 +14,18 @@ After I have an idea, I decide on the elements I need from Arduino: 3 light bulb
 
 After I draw the schematics, I started working on the Arduino. 
 
+
 <p align="center">
-  <img src="1.jpg" height="400">
+  <img src="1.jpg" height="800">
   
+
 <p align="center">
   <img src="2.jpg" height="400">
 
+
 <p align="center">
   <img src="3.jpg" height="400">
+
 
 After I completed the Arduino, I worked on writing the code. 
 

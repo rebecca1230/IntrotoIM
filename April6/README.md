@@ -1,4 +1,4 @@
-# Musical Instrament
+# Musical Instrument: Twinkle Twinkle Little Star
 
 For this assignment, we are instructed to create a musical instrument with the ARDUINO board, using analog and digital functions. We should also add the new learned server motor and the speaker. 
 

@@ -21,7 +21,7 @@ After I have a basic idea, I prepare the materials: two yellow light bulbs, one 
 [![Watch the video](2photo.JPG)](https://www.youtube.com/watch?v=9iP166vBbYI)
 
 ## Difficulties: 
-For some reasons can not explain, the switch and the light sensor's program are not working as intended. I will spend more time scrutinize the problem 
+For some reasons can not explain, the switch and the light sensor's program are not working as intended. I will spend more time scrutinize the problem. 
 
 1. Unable to allow the server motor and the speaker to operate at the same time. 
 2. Took hours to figure out how to let the server motor produce the desirable pattern but still failed to do so. 

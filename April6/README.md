@@ -3,7 +3,7 @@
 For this assignment, we are instructed to create a musical instrument with the ARDUINO board, using analog and digital functions. We should also add the new learned server motor and the speaker. 
 
 ## Ideation 
-I first list out the elements I have on hand: switches, LED light, server motor, light sensor, and the speaker. Then, I thought of the elements may altogether perform "Twinkle twinkle little start". The speaker will play the melody of the song "Little Star". The server motor will run a full circle when the switch is pressed. The switch is pressed at the pauses during the song. This part is operating upon the digital fashion. On the other hand, the light sensor is controlling the LEDs. When the light sensor detects darkness, the LEDs' pattern will change. This part is operating upon the analog fashion. 
+I first list out the elements I have on hand: switches, LED light, server motor, light sensor, and the speaker. Then, I thought of the elements may altogether perform "Twinkle twinkle little start". The speaker will play the melody of the song "Little Star". The server motor will run a certin type of pattern that also generates a kind of melody after the song ended, and we should imagine it as a meteor. The switch is pressed to produce special effects. On the other hand, the light sensor is controlling the LEDs. When the light sensor detects darkness, the LEDs' pattern will change. The project involves application and experince of digital and analog functions. 
 
 ## Schematic
 After I have a basic idea, I prepare the materials: two yellow light bulbs, one yellow switch, the light sensor, the sever motor, and the speaker. 

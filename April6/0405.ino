@@ -1,7 +1,7 @@
 /*
  * Intro to IM
  * Rebecca Huang 
- * Musical Instrament
+ * Musical Instrument
  * April 6, 2021
  */
 

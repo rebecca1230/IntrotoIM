@@ -86,7 +86,7 @@ void loop() {
     analogWrite(FOUR, HIGH);
     analogWrite(FIVE, LOW);
   }
-  //thw switch controlling the LED
+  //the switch controlling the LED
   if (digitalRead(YS) == HIGH) {
     digitalWrite(ONE, random(LOW, HIGH));
     digitalWrite(TWO, random(LOW, HIGH));
@@ -94,7 +94,7 @@ void loop() {
     digitalWrite(FOUR, random(LOW, HIGH));
     digitalWrite(FIVE, random(LOW, HIGH));
   }
-  //the pattern of hwo the servo works at last
+  //the pattern of how the servo works at last
   myservo.write(10);
   delay(200);
   myservo.write(50);

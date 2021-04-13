@@ -24,13 +24,15 @@ The game's color theme is black and white. The t-rex is the black square in the 
 
 ## Demo
 
-[![Watch the video](1.png)](https://youtu.be/h5x2jWNl580)
+Losing the Game 
 
-Loosing the game
-
-[![Watch the video](2.png)](https://youtu.be/BuHSiyLoleE)
+<p align="center">
+  <img src="gameOver.gif" height="400">
 
 Winning the game
+
+<p align="center">
+  <img src="invisible.gif" height="400">
 
 ## Difficulties and Discoveries
 1. I was trying to write a program using Class that allows me to add new obstacles. I had two functions under the Class Obstacle "void show and void move". However, when I put obstacle.move and obstacle, show at the void setup section, the two functions are not working. The error message was syntax error: "missing operate or semicolon". i shall figure out why. 

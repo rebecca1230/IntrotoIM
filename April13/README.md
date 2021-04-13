@@ -25,9 +25,11 @@ The game's color theme is black and white. The t-rex is the black square in the 
 ## Demo
 
 [![Watch the video](1.png)](https://youtu.be/h5x2jWNl580)
+
 Loosing the game
 
 [![Watch the video](2.png)](https://youtu.be/BuHSiyLoleE)
+
 Winning the game
 
 ## Difficulties and Discoveries

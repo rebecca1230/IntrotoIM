@@ -24,6 +24,9 @@ The game's color theme is black and white. The t-rex is the black square in the 
 
 ## Demo
 
+<p align="center">
+  <img src="together.gif" height="400">
+
 Losing the Game 
 
 <p align="center">

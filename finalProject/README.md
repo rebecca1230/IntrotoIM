@@ -9,6 +9,7 @@
 6. Virus touches the cell (PROCESSING) : cell's diameter -2 
 7. How to win ? Cell remains after 100 virus appraoched it. 
 8. When is losing ? Cell diameter <= 5 after 100 virus. 
+9. >> LED becomes red if the cell is about to die if five more virus hits it. 
 
 <p align="center">
   <img src="final.jpg" height="400">

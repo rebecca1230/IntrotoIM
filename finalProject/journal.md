@@ -13,4 +13,4 @@ Dealt with mistakes in codes.
 ## April 21 Wednesday 
 Worked on ARDUINO codes. 
 ## April 22 Thursday 
-![](experiment.png)
+![](experiment .png)

@@ -40,15 +40,15 @@ Background(255) should be placed under the draw and not the setup function. Or e
 # April 18 Sunday 
 Resolved mistakes in the code of making the virus move. 
 
+<p align="center">
+  <img src="one.gif" height="400">
+
 # April 19 Monday 
 1. Applied array and experiment with effectively create different objects.
 2. Struggled with making objects under array distinctive. 
 
 ### Discoveries 
 I understood the number 0,1,and 2 inside values[0], values[1], valued[2], of an array as the labels of the object. Therefore, I thought that I was able to call the objects out by their lables. However, I discovered that it was not the case. For my array of vmany[] that includes many virus. The numbers inside the [] of vmany[]  are the total number of the objects an array contains. 
-
-<p align="center">
-  <img src="one.gif" height="400">
 
 # April 20 Tuesday 
 Dealt with mistakes in Processing codes and experiment with button applications. 
@@ -82,11 +82,11 @@ For this version, I decided to have :
     2. Resolved the problem. 
 
 ### Discoveries
-1. Should place background(255); under draw function and not setup function. Or else, my objects will have shadows when moving.
-2. There is an order for creating an array and defining the values. So, I should define the value I write an array using those values.
 
-### Reflection
-The importance of taking notes and plan before start coding is that I can understand the effects each section create and so decide the approach that can get me to that point with minimal complication, rather than trying things out and see how they are compatible with each other. 
+Using arraylist may not be the most effective method: 
+
+<p align="center">
+  <img src="arraylist.png" height="400">
 
 # April 23 Firday
 
@@ -100,7 +100,7 @@ Finally, I have obtained a minimal viable project.
 2. I managed to create score count by calculating the distance between the cell(black box) and the virus(the falling colorful objects). However, the potentiometer's value is not consistent as the program sometimes missed counting scores. I seeked help from classmates and resolved the problem by using boolean touch true or false to minimize the margin of errors. 
 
 ### Discoveries
-Writing notes that resembles the actual code, while not completely using coding language, has allowed me to carefreely pour out my thoughts. Following is an example of notes I jotted down when designing how to win the game: 
+Writing notes that resembles the actual code, while not completely using coding language, has allowed me to carefreely pour out my thoughts. The importance of taking notes and plan before start coding is that I can understand the effects each section create and so decide the approach that can get me to that point with minimal complication, rather than trying things out and see how they are compatible with each other. Following is an example of notes I jotted down when designing how to win the game: 
 ```
 if (score yellow == 3 &&  green ==1) {
 score yellow -= 3;
@@ -158,5 +158,7 @@ Codes under the startGame function:
 ```
 <p align="center">
   <img src="redOn.png" height="200">
+
+The console displayed "redOn", indicating that I have pressed the red button. However, that was not true, I was not touching the red button.
 
 # April 27 Tuesday 

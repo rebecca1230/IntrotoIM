@@ -29,7 +29,7 @@ Reviewed array.
 Completed the basic codes for three objects: the cell, the arrow, and the virus. Able to move the arrow with keyPressed. 
 
 <p align="center">
-  <img src="color.jpg" height="400">
+  <img src="color .jpg" height="400">
   
 <p align="center">
   <img src="weird.png" height="400">

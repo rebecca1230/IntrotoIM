@@ -31,7 +31,9 @@ Dealt with mistakes in Processing codes and experiment with button applications.
 Today, I have seriously considered to change my project idea. While the concept of pressing buttons with the color same as the virus, and kill the virus by having the cell eject an arrow with the corresponding virus's color is interesting, this need of matching colors of different objects enhanced the game's complexity to an extent that I would not be able to generate a minimal viable product on time. Today, I have spent a lot of time weighing the pros and cons of making a huge turn at this point, assessing my abilities, and designing a game that is creative, fun, and possible to produce. 
 
 At the end, I have modified my project to the following version: 
-![](experiment.png)
+
+<p align="center">
+  <img src="experiment.png" height="400">
 
 For this version, I decided to have :
 1. Potentiometer that controls the x value of the cell to move left and right, to avoid the virus. 

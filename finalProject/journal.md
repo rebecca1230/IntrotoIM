@@ -116,7 +116,7 @@ Spent hours experimenting with button applications. Progress was minimal as had 
 
 Finally, I managed to complete the project for which only works such as enhancing aesthetic, commenting codes, and working on documentation are left.
 <p align="center">
-  <img src="secondm.png" height="800">
+  <img src="secondm.png" height="600">
 
 ### Attempt the apply buttons rather than mousePressed or keyPressed
 I tried to use the red button instead of the Processing functions such as mousePressed or keyPressed as the way to start the game. However, the vaules of the red Button were not reliable as Processing's consoles showed "redOn" even when I did not press the red button. I applied the following codes: 

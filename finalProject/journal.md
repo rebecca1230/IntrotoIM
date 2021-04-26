@@ -6,8 +6,12 @@ Reviewed array.
 
 # April 17 Saturday
 Completed the basic codes for three objects: the cell, the arrow, and the virus. Able to move the arrow with keyPressed. 
-![](color.png)
-![](weird.png)
+
+<p align="center">
+  <img src="color.png" height="400">
+  
+<p align="center">
+  <img src="weird.png" height="400">
 
 ### Discoveries
 Background(255) should be placed under the draw and not the setup function. Or else, the moving object will display a tail of shade. 
@@ -22,7 +26,8 @@ Resolved mistakes in the code of making the virus move.
 ### Discoveries 
 I understood the number 0,1,and 2 inside values[0], values[1], valued[2], of an array as the labels of the object. Therefore, I thought that I was able to call the objects out by their lables. However, I discovered that it was not the case. For my array of vmany[] that includes many virus. The numbers inside the [] of vmany[]  are the total number of the objects an array contains. 
 
-![](one.gif)
+<p align="center">
+  <img src="one.gif" height="400">
 
 # April 20 Tuesday 
 Dealt with mistakes in Processing codes and experiment with button applications. 
@@ -94,7 +99,8 @@ win the game;}
 ```
 
 Finally, I have obtained a minimal viable project. 
-![](modification.png)
+<p align="center">
+  <img src="modification.png" height="400">
 
 # April 24 Saturday 
 
@@ -109,7 +115,8 @@ Spent hours experimenting with button applications. Progress was minimal as had 
 # April 26 Monday 
 
 Finally, I managed to complete the project for which only works such as enhancing aesthetic, commenting codes, and working on documentation are left.
-![](secondm.png)
+<p align="center">
+  <img src="secondm.png" height="400">
 
 ### Attempt the apply buttons rather than mousePressed or keyPressed
 I tried to use the red button instead of the Processing functions such as mousePressed or keyPressed as the way to start the game. However, the vaules of the red Button were not reliable as Processing's consoles showed "redOn" even when I did not press the red button. I applied the following codes: 
@@ -126,6 +133,7 @@ Codes under the startGame function:
     gameStage = "PLAY";
   }
 ```
-![](redOn.png)
+<p align="center">
+  <img src="redOn.png" height="400">
 
 # April 27 Tuesday 

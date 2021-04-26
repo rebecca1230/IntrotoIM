@@ -84,16 +84,18 @@ For this version, I decided to have :
 
 ### Discoveries
 
+Using arraylist may not be the most effective method:
+
 <p align="center">
   <img src="arraylist.png" height="400">
-Using arraylist may not be the most effective method.
+
 
 # April 23 Firday
 
+Finally, I have obtained a minimal viable project. 
+
 <p align="center">
   <img src="modification.png" height="400">
-
-Finally, I have obtained a minimal viable project. 
 
 ### Difficulties
 1. Unable to create new objects from the array. After checked out Daniel Shiffman's video on creating the game Frogger https://www.youtube.com/watch?v=giXV6xErw0Y, I was inspired by his method of creating more buses and resovled the problem. 
@@ -136,10 +138,10 @@ Spent hours experimenting with button applications. Progress was minimal as had 
 
 # April 26 Monday 
 
+Finally, I managed to complete the project for which only works such as enhancing aesthetic, commenting codes, and working on documentation are left.
+
 <p align="center">
   <img src="secondm.png" height="600">
-
-Finally, I managed to complete the project for which only works such as enhancing aesthetic, commenting codes, and working on documentation are left.
 
 ### Attempt the apply buttons rather than mousePressed or keyPressed
 I tried to use the red button instead of the Processing functions such as mousePressed or keyPressed as the way to start the game. However, the vaules of the red Button were not reliable as Processing's consoles showed "redOn" even when I did not press the red button. I applied the following codes: 

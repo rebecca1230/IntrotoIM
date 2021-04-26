@@ -8,7 +8,7 @@ Reviewed array.
 Completed the basic codes for three objects: the cell, the arrow, and the virus. Able to move the arrow with keyPressed. 
 
 <p align="center">
-  <img src="color.png" height="400">
+  <img src="color.jpg" height="400">
   
 <p align="center">
   <img src="weird.png" height="400">
@@ -116,7 +116,7 @@ Spent hours experimenting with button applications. Progress was minimal as had 
 
 Finally, I managed to complete the project for which only works such as enhancing aesthetic, commenting codes, and working on documentation are left.
 <p align="center">
-  <img src="secondm.png" height="400">
+  <img src="secondm.png" height="800">
 
 ### Attempt the apply buttons rather than mousePressed or keyPressed
 I tried to use the red button instead of the Processing functions such as mousePressed or keyPressed as the way to start the game. However, the vaules of the red Button were not reliable as Processing's consoles showed "redOn" even when I did not press the red button. I applied the following codes: 
@@ -134,6 +134,6 @@ Codes under the startGame function:
   }
 ```
 <p align="center">
-  <img src="redOn.png" height="400">
+  <img src="redOn.png" height="200">
 
 # April 27 Tuesday 

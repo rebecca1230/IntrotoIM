@@ -18,7 +18,8 @@ Resolved mistakes in the code of making the virus move.
 # April 19 Monday 
 1. Applied array and experiment with effectively create different objects.
 2. Struggled with making objects under array distinctive. 
-# Discoveries 
+
+### Discoveries 
 I understood the number 0,1,and 2 inside values[0], values[1], valued[2], of an array as the labels of the object. Therefore, I thought that I was able to call the objects out by their lables. However, I discovered that it was not the case. For my array of vmany[] that includes many virus. The numbers inside the [] of vmany[]  are the total number of the objects an array contains. 
 
 ![](one.gif)

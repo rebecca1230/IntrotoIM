@@ -38,10 +38,11 @@ Completed the basic codes for three objects: the cell, the arrow, and the virus.
 Background(255) should be placed under the draw and not the setup function. Or else, the moving object will display a tail of shade. 
 
 # April 18 Sunday 
-Resolved mistakes in the code of making the virus move. 
 
 <p align="center">
   <img src="one.gif" height="400">
+
+Resolved mistakes in the code of making the virus move. 
 
 # April 19 Monday 
 1. Applied array and experiment with effectively create different objects.
@@ -83,10 +84,9 @@ For this version, I decided to have :
 
 ### Discoveries
 
-Using arraylist may not be the most effective method: 
-
 <p align="center">
   <img src="arraylist.png" height="400">
+Using arraylist may not be the most effective method.
 
 # April 23 Firday
 

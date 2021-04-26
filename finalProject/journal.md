@@ -73,7 +73,7 @@ For this version, I decided to have :
 
 
 # April 22 Thursday 
-# Accomplishments: 
+### Accomplishments: 
 1. Created many virus with the use of array.
 2. Created different colours of virus with the use of array. 
 3. Made virus approach the cell from all angles.

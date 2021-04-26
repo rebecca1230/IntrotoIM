@@ -158,9 +158,10 @@ Codes under the startGame function:
     gameStage = "PLAY";
   }
 ```
+
+However, the attempt failed. The console was displaying "redOn", indicating that I have pressed the red button. However, that was not true, I was not touching the red button.
+
 <p align="center">
   <img src="redOn.png" height="200">
-
-The console displayed "redOn", indicating that I have pressed the red button. However, that was not true, I was not touching the red button.
 
 # April 27 Tuesday 

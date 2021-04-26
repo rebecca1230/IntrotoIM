@@ -90,6 +90,11 @@ The importance of taking notes and plan before start coding is that I can unders
 
 # April 23 Firday
 
+<p align="center">
+  <img src="modification.png" height="400">
+
+Finally, I have obtained a minimal viable project. 
+
 ### Difficulties
 1. Unable to create new objects from the array. After checked out Daniel Shiffman's video on creating the game Frogger https://www.youtube.com/watch?v=giXV6xErw0Y, I was inspired by his method of creating more buses and resovled the problem. 
 2. I managed to create score count by calculating the distance between the cell(black box) and the virus(the falling colorful objects). However, the potentiometer's value is not consistent as the program sometimes missed counting scores. I seeked help from classmates and resolved the problem by using boolean touch true or false to minimize the margin of errors. 
@@ -119,10 +124,6 @@ if (yellow == 3 && red == 3) {
 win the game;}
 ```
 
-Finally, I have obtained a minimal viable project. 
-<p align="center">
-  <img src="modification.png" height="400">
-
 # April 24 Saturday 
 
 1. Eliminated unessesary code from ARDUINO. 
@@ -135,9 +136,10 @@ Spent hours experimenting with button applications. Progress was minimal as had 
 
 # April 26 Monday 
 
-Finally, I managed to complete the project for which only works such as enhancing aesthetic, commenting codes, and working on documentation are left.
 <p align="center">
   <img src="secondm.png" height="600">
+
+Finally, I managed to complete the project for which only works such as enhancing aesthetic, commenting codes, and working on documentation are left.
 
 ### Attempt the apply buttons rather than mousePressed or keyPressed
 I tried to use the red button instead of the Processing functions such as mousePressed or keyPressed as the way to start the game. However, the vaules of the red Button were not reliable as Processing's consoles showed "redOn" even when I did not press the red button. I applied the following codes: 

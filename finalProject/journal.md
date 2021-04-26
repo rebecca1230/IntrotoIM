@@ -9,7 +9,7 @@ Completed the basic codes for three objects: the cell, the arrow, and the virus.
 ![](color.png)
 ![](weird.png)
 
-## Discoveries
+# Discoveries
 Background(255) should be placed under the draw and not the setup function. Or else, the moving object will display a tail of shade. 
 
 ## April 18 Sunday 
@@ -38,13 +38,12 @@ For this version, I decided to have :
 3. Pressing the buttons will delete the virus one by one. However, if there are no virus of a specific color left and the player is still pressing the button, then the player would be adding a dangerous virus. Or, it may be press buttons to create arrows ejecting from both left and right sides. 
 4. if the cell is touched by the virus, then the player lost. 
 
-Discoveries: 
+# Discoveries
 1. When the virus fall down from the sky, the number of the virus changes every time even though I had specify having 8 virus in total.
 2. I copied and pasted the exact same code to the other Processing file, and then nothing works. I realised that the new codes are incompatibility with the original codes. 
 
 
 ## April 22 Thursday 
-
 # Accomplishments: 
 1. Created many virus with the use of array.
 2. Created different colours of virus with the use of array. 
@@ -67,7 +66,6 @@ The importance of taking notes and plan before start coding is that I can unders
 2. I managed to create score count by calculating the distance between the cell(black box) and the virus(the falling colorful objects). However, the potentiometer's value is not consistent as the program sometimes missed counting scores. I seeked help from classmates and resolved the problem by using boolean touch true or false to minimize the margin of errors. 
 
 # Discoveries
-
 Writing notes that resembles the actual code, while not completely using coding language, has allowed me to carefreely pour out my thoughts. Following is an example of notes I jotted down when designing how to win the game: 
 ```
 if (score yellow == 3 &&  green ==1) {
@@ -92,7 +90,6 @@ if (yellow == 3 && red == 3) {
 win the game;}
 ```
 
-# Result
 Finally, I have obtained a minimal viable project. 
 ![](modification.png)
 
@@ -108,7 +105,6 @@ Spent hours experimenting with button applications. Progress was minimal as had 
 
 ## April 26 Monday 
 
-# Result
 Finally, I managed to complete the project for which only works such as enhancing aesthetic, commenting codes, and working on documentation are left.
 ![](secondm.png)
 

@@ -1,7 +1,7 @@
 # Final Project: Fighting COVID 
 
 <p align="center">
-  <img src="covid.png" height="400">
+  <img src="covid.png" height="200">
 
 COVID has been a huge part of our lives now, whether or not we like it. Therefore, I have decided to create a project allowing us to engage in the process of fighting  this one of the most catastrophic global pandemic in the history. 
  

@@ -26,22 +26,27 @@ This game will have four objects in total that fall from above: Moderna vaccine,
 
 <p align="center">
   <img src="screen1.png" height="400">
+  
 The first screen is the start screen that display rules. The player has to press the blue button to start the game. 
 
 <p align="center">
   <img src="screen2.png" height="400">
+  
 Game begins. Take note that both Moderna shot and B117 variant have the red aesthetic to specify the rule of a hit by the variant B117 will lead to a loss of 3 Moderna shots. The same rule applies to Pfizer and E484K, which are depicted in green. 
 
 <p align="center">
   <img src="screen3.png" height="400">
+  
 If you unfortunately hit by the cell and had not enough shots to fight back (3), then you lost. Press the yellow button to replay. 
 
 <p align="center">
   <img src="screen4.png" height="400">
+  
 Another thing to note about playing Fighting COVID is that you can press the red button to move the B117/red virus existed on the screen to collectedly move to the left. The same logic applies to green button and moving the E48EK/green virus. 
 
 <p align="center">
   <img src="screen5.png" height="400">
+  
 Congratulations to win the game by having enough vaccines. Hope you well in fight COVID in real life too. 
 
 ## Schematic 

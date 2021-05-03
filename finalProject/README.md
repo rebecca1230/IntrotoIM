@@ -5,7 +5,7 @@
 
 COVID has been a huge part of our lives now, whether or not we like it. Therefore, I have decided to create a project allowing us to engage in the process of fighting  this one of the most catastrophic global pandemic in the history. 
  
-## Background:
+## Background
 
 <p align="center">
   <img src="thirdShot.png" height="300">
@@ -22,7 +22,7 @@ Moderna and Pfizer are the two types of vaccines that we can get to prevent COVI
 
 This game will have four objects in total that fall from above: Moderna vaccine, Pfizer vaccine, B117 variant virus, and E484K variant virus. At the bottom, there is a purple cartoon that signifies your cell. To win the game, have the cell consumed 3 Moderna shots and 3 Pfizer shots. Careful in the situation where the cell has 3 Moderna shots but not yet obtained 3 Pfizer shots. In this case, if the cell is hit by B117 variant (the red virus),the accumulated Moderna shots will decreased by 3. This rule applies to Pfizer shot and its relationship to the E48EK variant. 
 
-### Screen 1
+## Game Stages
 
 <p align="center">
   <img src="screen1.png" height="400">
@@ -54,7 +54,7 @@ Congratulations to win the game by having enough vaccines. Hope you well in figh
 <p align="center">
   <img src="pot.jpeg" height="400">
 
-## Progress 
+## Circuit 
 
 <p align="center">
   <img src="buttons.jpeg" height="400">

@@ -11,7 +11,7 @@ COVID has been a huge part of our lives now, whether or not we like it. Therefor
   <img src="thirdShot.png" height="300">
 
 <p align="center">
-  <img src="e484k.png" height="250">
+  <img src="e484k.png" height="225">
 
 <p align="center">
   <img src="b117.png" height="200">

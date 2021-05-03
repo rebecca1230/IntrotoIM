@@ -1,14 +1,20 @@
 # Final Project: Fighting COVID 
 
-![](covid.png)
+<p align="center">
+  <img src="covid.png" height="400">
 
 COVID has been a huge part of our lives now, whether or not we like it. Therefore, I have decided to create a project allowing us to engage in the process of fighting  this one of the most catastrophic global pandemic in the history. 
  
 ## Background:
 
-![](thirdShot.png)
-![](e484k.png)
-![](b117.png)
+<p align="center">
+  <img src="thirdShot.png" height="400">
+
+<p align="center">
+  <img src="e484k.png" height="400">
+
+<p align="center">
+  <img src="b117.png" height="400">
 
 Moderna and Pfizer are the two types of vaccines that we can get to prevent COVID. As more people are taking those vaccines, we started to discover dangerous side effect including rare blood disorder. Moreover, as the virus gradually have more mutations such as E484K and B117 the vaccines effectiveness started to decrease. Therefore, more medical companies, including Moderna and Pfizer, are suggesting the need to take a third shot. 
 
@@ -17,37 +23,47 @@ Moderna and Pfizer are the two types of vaccines that we can get to prevent COVI
 This game will have four objects in total that fall from above: Moderna vaccine, Pfizer vaccine, B117 variant virus, and E484K variant virus. At the bottom, there is a purple cartoon that signifies your cell. To win the game, have the cell consumed 3 Moderna shots and 3 Pfizer shots. Careful in the situation where the cell has 3 Moderna shots but not yet obtained 3 Pfizer shots. In this case, if the cell is hit by B117 variant (the red virus),the accumulated Moderna shots will decreased by 3. This rule applies to Pfizer shot and its relationship to the E48EK variant. 
 
 ### Screen 1
-![](screen1.png)
+
+<p align="center">
+  <img src="screen1.png" height="400">
 The first screen is the start screen that display rules. The player has to press the blue button to start the game. 
 
-![](screen2.png)
+<p align="center">
+  <img src="screen2.png" height="400">
 Game begins. Take note that both Moderna shot and B117 variant have the red aesthetic to specify the rule of a hit by the variant B117 will lead to a loss of 3 Moderna shots. The same rule applies to Pfizer and E484K, which are depicted in green. 
 
-![](screen3.png)
+<p align="center">
+  <img src="screen3.png" height="400">
 If you unfortunately hit by the cell and had not enough shots to fight back (3), then you lost. Press the yellow button to replay. 
 
-![](screen4.png)
+<p align="center">
+  <img src="screen4.png" height="400">
 Another thing to note about playing Fighting COVID is that you can press the red button to move the B117/red virus existed on the screen to collectedly move to the left. The same logic applies to green button and moving the E48EK/green virus. 
 
-![](screen5.png)
+<p align="center">
+  <img src="screen5.png" height="400">
 Congratulations to win the game by having enough vaccines. Hope you well in fight COVID in real life too. 
 
 ## Schematic 
 
-![](pot.jpeg)
+<p align="center">
+  <img src="pot.jpeg" height="400">
 
 ## Progress 
 
-![](buttons.jpeg)
-![](buttons2.jpeg)
+<p align="center">
+  <img src="buttons.jpeg" height="400">
+
+<p align="center">
+  <img src="buttons2.jpeg" height="400">
 
 ## Demo 
 
-https://www.youtube.com/watch?v=dJJDDZsPyOg
+[![Watch the video](video.png)](https://www.youtube.com/watch?v=dJJDDZsPyOg)
 
 ## Difficulties
 
-### Chang of plans 
+### Change of plans 
 The biggest challenge that I have first faced while working on this project is "make the right decision in changing the project's idea." This was one of the most devastating periods in creating this project. Initially, I wanted to create a game for which the cell will eject arrows of four colors if buttons with corresponding colors are pressed. Moreover, I wanted to have the cells disappear when arrows with the same color hit them. This whole design based on matching colors had driven me crazy because this design requires sophisticated multilayer codes. Besides, once I discovered an effective approach, I had to apply that in two other scenarios for which makes things more complicated. In short, I have spent hours weighing (1) my ability (2) time left (3) potential problems if stick to the plan, and many more aspects before I proceed with coding. It was an uneasy phase because a wrong decision may lead to more waste of time and even more limited my options on what I can do. 
 
 ### Buttons

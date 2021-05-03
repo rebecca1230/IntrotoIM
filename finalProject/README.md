@@ -1,20 +1,20 @@
 # Final Project: Fighting COVID 
 
 <p align="center">
-  <img src="covid.png" height="200">
+  <img src="covid.png" height="300">
 
 COVID has been a huge part of our lives now, whether or not we like it. Therefore, I have decided to create a project allowing us to engage in the process of fighting  this one of the most catastrophic global pandemic in the history. 
  
 ## Background:
 
 <p align="center">
-  <img src="thirdShot.png" height="400">
+  <img src="thirdShot.png" height="300">
 
 <p align="center">
-  <img src="e484k.png" height="400">
+  <img src="e484k.png" height="200">
 
 <p align="center">
-  <img src="b117.png" height="400">
+  <img src="b117.png" height="200">
 
 Moderna and Pfizer are the two types of vaccines that we can get to prevent COVID. As more people are taking those vaccines, we started to discover dangerous side effect including rare blood disorder. Moreover, as the virus gradually have more mutations such as E484K and B117 the vaccines effectiveness started to decrease. Therefore, more medical companies, including Moderna and Pfizer, are suggesting the need to take a third shot. 
 

@@ -16,7 +16,7 @@ COVID has been a huge part of our lives now, whether or not we like it. Therefor
 <p align="center">
   <img src="b117.png" height="200">
 
-Moderna and Pfizer are the two types of vaccines that we can get to prevent COVID. As more people are taking those vaccines, we started to discover dangerous side effect including rare blood disorder. Moreover, as the virus gradually have more mutations such as E484K and B117 the vaccines effectiveness started to decrease. Therefore, more medical companies, including Moderna and Pfizer, are suggesting the need to take a third shot. 
+Moderna and Pfizer are the two types of vaccines that we can get to prevent COVID. As more people are taking those vaccines, we started to discover dangerous side effect including rare blood disorder. Moreover, as the virus gradually have more mutations, such as E484K and B117, the vaccines effectiveness started to decrease. Therefore, more medical companies, including Moderna and Pfizer, are suggesting the need to take a third shot. 
 
 ## Instructions
 

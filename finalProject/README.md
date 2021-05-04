@@ -66,7 +66,7 @@ Congratulations to win the game by having enough vaccines. Hope you well in figh
 
 [![Watch the video](video.png)](https://www.youtube.com/watch?v=dJJDDZsPyOg)
 
-Visit [my journal](https://github.com/rebecca1230/IntrotoIM/blob/main/finalProject/journal.md) to check out more on the process:
+* To check out more on the process, please visit [my journal](https://github.com/rebecca1230/IntrotoIM/blob/main/finalProject/journal.md).
 
 
 ## Challenges

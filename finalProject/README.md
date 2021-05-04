@@ -66,6 +66,9 @@ Congratulations to win the game by having enough vaccines. Hope you well in figh
 
 [![Watch the video](video.png)](https://www.youtube.com/watch?v=dJJDDZsPyOg)
 
+Visit my journal to check out more on the process:
+[link to section](https://github.com/rebecca1230/IntrotoIM/blob/main/finalProject/journal.md)
+
 ## Challenges
 
 ### Change of plans 
@@ -78,9 +81,6 @@ The buttons have been driving me crazy. First, I got the photometer worked by ha
 At one point, I have successfully made the button work. However, the Processing console is not printing the button's on or off value consistently, meaning it display button is pressed even though I did not touch the buttons. After I seek help from Discord, Professor Shiloh suggested I draw my schematic. In the process of doing so, I noticed that I lacked the connection from 5v (only used pin 8). By fixing the wire, ARDUINO's Serial monitor showed a precise button on and off. While that was good news, the Processing is not working accordingly. I noticed the console had a slight moment of showing "0,0" Whenever that message was printed, the game started itself rather than controlled by the button as I intended. 
 
 Finally, I followed through with my codes with logic, and I discovered that I made a mistake in the Processing code. The if statement: if (string1.equals(string2)) == true), I set string1 equal to the ARDUINO's button on or off message. However, for string2, I again assigned it to ARDUINO's value. I should have not done this because those values will then always be equal, making there no point in checking if the statement is true. After I manually assigned string2 to "redButtonOn", the problem was solved.  
-
-Check out more at my journal:
-[link to section](https://github.com/Soojin-Lee0819/IntrotoIM/blob/main/Final%20Project/journal.md)
 
 ## Credits 
 1. Dan's video about arrays. 

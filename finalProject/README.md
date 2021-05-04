@@ -84,8 +84,8 @@ At one point, I have successfully made the button work. However, the Processing 
 Finally, I followed through with my codes with logic, and I discovered that I made a mistake in the Processing code. The if statement: if (string1.equals(string2)) == true), I set string1 equal to the ARDUINO's button on or off message. However, for string2, I again assigned it to ARDUINO's value. I should have not done this because those values will then always be equal, making there no point in checking if the statement is true. After I manually assigned string2 to "redButtonOn", the problem was solved.  
 
 ## Credits 
-1. Dan's video about arrays. 
+1. Dan Shiffman's video about arrays. 
 2. Dan Shiffman's Frogs video. 
-3. Professor's help on making the buttons work by checking the Serial function in Processing. 
-4 .Shout out many thanks to Chinonyerem agreed on having a zoom call with me where we were experimenting with the buttons. 
+3. Professor's helped me on debugging button's code by checking the Serial function in Processing. 
+4. Shout out many thanks to Chinonyerem agreed on having a zoom call with me where we were experimenting with the buttons. 
 5. Shout out many thanks to Ayush who had zoom calls with me and inspired me on how to resolve bugs about detecting objects, which refined my project. 

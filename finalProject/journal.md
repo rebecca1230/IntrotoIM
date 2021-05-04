@@ -163,5 +163,3 @@ However, the attempt failed. The console was displaying "redOn", indicating that
 
 <p align="center">
   <img src="redOn.png" height="200">
-
-# April 27 Tuesday 

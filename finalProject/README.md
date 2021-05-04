@@ -68,7 +68,7 @@ Congratulations to win the game by having enough vaccines. Hope you well in figh
 
 * To check out more on the process, please visit [my journal](https://github.com/rebecca1230/IntrotoIM/blob/main/finalProject/journal.md).
 * Cilck [here](https://github.com/rebecca1230/IntrotoIM/tree/main/finalProject/finalProject_ProcessingCodes) for the Processing codes.
-* CLick [here](https://github.com/rebecca1230/IntrotoIM/tree/main/finalProject/finalProject_arduinoCodes) for the ARDUINO codes.
+* Click [here](https://github.com/rebecca1230/IntrotoIM/tree/main/finalProject/finalProject_arduinoCodes) for the ARDUINO codes.
 
 ## Challenges
 

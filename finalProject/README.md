@@ -66,7 +66,7 @@ Congratulations to win the game by having enough vaccines. Hope you well in figh
 
 [![Watch the video](video.png)](https://www.youtube.com/watch?v=dJJDDZsPyOg)
 
-## Difficulties
+## Challenges
 
 ### Change of plans 
 The biggest challenge that I have first faced while working on this project is "make the right decision in changing the project's idea." This was one of the most devastating periods in creating this project. Initially, I wanted to create a game for which the cell will eject arrows of four colors if buttons with corresponding colors are pressed. Moreover, I wanted to have the cells disappear when arrows with the same color hit them. This whole design based on matching colors had driven me crazy because this design requires sophisticated multilayer codes. Besides, once I discovered an effective approach, I had to apply that in two other scenarios for which makes things more complicated. In short, I have spent hours weighing (1) my ability (2) time left (3) potential problems if stick to the plan, and many more aspects before I proceed with coding. It was an uneasy phase because a wrong decision may lead to more waste of time and even more limited my options on what I can do. 
